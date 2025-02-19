@@ -1,10 +1,10 @@
 [Manabu Nakamura](https://github.com/manabu-nakamura)
 - [Material Components for Android](https://github.com/material-components/material-components-android)
-  - [App](https://github.com/manabu-nakamura/app) :red_square:
+  - [App](https://github.com/manabu-nakamura/app) :red_square:🟥
   - [Contributions](https://github.com/material-components/material-components-android/issues?q=author%3Amanabu-nakamura) ([PRs are not directly merged into the repository](https://github.com/material-components/material-components-android/blob/master/docs/contributing.md#pull-request-process)) :red_square:
     - https://github.com/material-components/material-components-android/commits?author=manabu-nakamura
     - Closed:
-      - [[Slider] vertical slider in horizontal scrollview can not be scrolled](https://github.com/material-components/material-components-android/issues/4510) :ballot_box_with_check:
+      - [[Slider] vertical slider in horizontal scrollview can not be scrolled](https://github.com/material-components/material-components-android/issues/4510) :ballot_box_with_check:☑️
       - [[Slider] label is not gone with slider](https://github.com/material-components/material-components-android/issues/4319) :ballot_box_with_check:
       - [[PredictiveBack] Use OnBackPressedCallback in MaterialBackOrchestrator for Android 12-](https://github.com/material-components/material-components-android/issues/3637)
       - [[SideSheet][BottomSheet][DatePicker][TimePicker][Dialog] Unify scrim color](https://github.com/material-components/material-components-android/issues/3635) :ballot_box_with_check:
