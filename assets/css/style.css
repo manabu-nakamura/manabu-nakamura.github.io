@@ -1,3 +1,8 @@
 body {
-  background-color: #c0c0c0
+  background-color: #808080;
+  color: white
+}
+a {
+  color: blue;
+  text-decoration: underline;
 }
