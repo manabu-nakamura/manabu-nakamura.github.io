@@ -38,4 +38,3 @@
   - [Contributions](https://github.com/android/compose-samples/issues?q=author%3Amanabu-nakamura) 🟥
 
 [Manabu Nakamura](https://github.com/manabu-nakamura)
-[Manabu Nakamura](https://github.com/manabu-nakamura)
