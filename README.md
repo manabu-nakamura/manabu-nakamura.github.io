@@ -1,4 +1,3 @@
-[Manabu Nakamura](https://github.com/manabu-nakamura)
 - [Material Components for Android](https://github.com/material-components/material-components-android)
   - [App](https://github.com/manabu-nakamura/app) 🟥
   - [Contributions](https://github.com/material-components/material-components-android/issues?q=author%3Amanabu-nakamura) ([PRs are not directly merged into the repository](https://github.com/material-components/material-components-android/blob/master/docs/contributing.md#pull-request-process)) 🟥
@@ -37,3 +36,6 @@
 - [Jetpack Compose](https://developer.android.com/compose)
   - [App](https://github.com/manabu-nakamura/appc) 🟥
   - [Contributions](https://github.com/android/compose-samples/issues?q=author%3Amanabu-nakamura) 🟥
+
+[Manabu Nakamura](https://github.com/manabu-nakamura)
+[Manabu Nakamura](https://github.com/manabu-nakamura)
