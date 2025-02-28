@@ -13,3 +13,33 @@ order: 4
 > - C#
 > - ...
 {: .prompt-tip }
+
+> I'm interested in
+> - Android
+    >   - [Material Components for Android](https://github.com/material-components/material-components-android)
+>   - [Jetpack Compose](https://developer.android.com/compose)
+> - Java
+> - Kotlin
+> - C#
+> - ...
+{: .prompt-info }
+
+> I'm interested in
+> - Android
+    >   - [Material Components for Android](https://github.com/material-components/material-components-android)
+>   - [Jetpack Compose](https://developer.android.com/compose)
+> - Java
+> - Kotlin
+> - C#
+> - ...
+{: .prompt-warning }
+
+> I'm interested in
+> - Android
+    >   - [Material Components for Android](https://github.com/material-components/material-components-android)
+>   - [Jetpack Compose](https://developer.android.com/compose)
+> - Java
+> - Kotlin
+> - C#
+> - ...
+{: .prompt-danger }
