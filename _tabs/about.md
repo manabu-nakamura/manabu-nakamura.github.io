@@ -6,8 +6,8 @@ order: 4
 
 > I'm interested in
 > - Android
->   - Material Components for Android
->   - Jetpack Compose
+>   - [Material Components for Android](https://github.com/material-components/material-components-android)
+>   - [Jetpack Compose](https://developer.android.com/compose)
 > - Java
 > - Kotlin
 > - C#
