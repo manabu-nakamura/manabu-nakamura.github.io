@@ -1,4 +1,5 @@
 ---
+title: Hot Topics
 categories: [Hot Topics, Android]
 tags: [Material Components for Android, Jetpack Compose]
 pin: true
