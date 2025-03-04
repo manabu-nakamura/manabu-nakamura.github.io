@@ -2,7 +2,7 @@
 title: GitHub Flavored Admonitions
 categories: [Jekyll, GitHub Flavored Admonitions]
 ---
-```
+```markdown
 > [!CAUTION]
 > test
 ```
