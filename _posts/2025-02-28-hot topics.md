@@ -7,8 +7,8 @@ pin: true
 Contributions and App ([Material Components for Android](https://github.com/material-components/material-components-android) and [Jetpack Compose](https://developer.android.com/compose))
 - [Material Components for Android](https://github.com/material-components/material-components-android)
   - [Contributions](https://github.com/material-components/material-components-android/issues?q=author%3Amanabu-nakamura) ([PRs are not directly merged into the repository](https://github.com/material-components/material-components-android/blob/master/docs/contributing.md#pull-request-process)) 🟥
-    - [https://github.com/material-components/material-components-android/commits?author=manabu-nakamura](https://github.com/material-components/material-components-android/commits?author=manabu-nakamura)
     - Closed:
+      - [Commits](https://github.com/material-components/material-components-android/commits?author=manabu-nakamura)<p/>
       - [[Slider] vertical slider in horizontal scrollview can not be scrolled](https://github.com/material-components/material-components-android/issues/4510) ☑️
       - [[Slider] label is not gone with slider](https://github.com/material-components/material-components-android/issues/4319) ☑️
       - [[PredictiveBack] Use OnBackPressedCallback in MaterialBackOrchestrator for Android 12-](https://github.com/material-components/material-components-android/issues/3637)
@@ -27,7 +27,7 @@ Contributions and App ([Material Components for Android](https://github.com/mate
       - [[Catalog] workaround for #3635 ([NavigationDrawer] Unify scrim color)](https://github.com/material-components/material-components-android/pull/4530)
       - [[Catalog] workaround for #1464 ([Exposed Dropdown Menu] Filtering incorrectly applied after rotation)](https://github.com/material-components/material-components-android/pull/4506) 🟥
     - Open:
-      - [scrim color of drawer layout (navigation drawer) is darker than scrim color of other components](https://issuetracker.google.com/issues/365245820) 🟥
+      - [scrim color of drawer layout (navigation drawer) is darker than scrim color of other components](https://issuetracker.google.com/issues/365245820) 🟥<p/>
       - [[Catalog] add cutout mode preference](https://github.com/material-components/material-components-android/issues/4576) 🟥
       - [[Catalog][DatePicker] navigation bar has no contrast if edge to edge setting is on](https://github.com/material-components/material-components-android/issues/4501)
       - [[DatePicker] icon is inconsistent](https://github.com/material-components/material-components-android/issues/4485)
@@ -39,6 +39,7 @@ Contributions and App ([Material Components for Android](https://github.com/mate
       - [[Catalog] Applied edge-to-edge to bottom sheet](https://github.com/material-components/material-components-android/pull/4001)
       - [[Catalog][BottomSheet] foreground color of status bar changes if bottom sheet is opened multiple times](https://github.com/material-components/material-components-android/issues/3940)
       - [[TabLayout] ripple of TabLayout is different from ripple of other components](https://github.com/material-components/material-components-android/issues/3157) 🟥
+    - [Comments](https://github.com/material-components/material-components-android/issues?q=commenter%3Amanabu-nakamura)
   - [App](https://github.com/manabu-nakamura/app) 🟥
 - [Jetpack Compose](https://developer.android.com/compose)
   - [Contributions](https://github.com/android/compose-samples/issues?q=author%3Amanabu-nakamura) 🟥
