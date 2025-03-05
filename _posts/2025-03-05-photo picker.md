@@ -7,6 +7,8 @@ categories: [Android]
 
 <img src="/assets/img/2025-03-05-1.png" alt="" width="150"><img src="/assets/img/2025-03-05-2.png" alt="" width="150">
 
+<img src="../assets/img/2025-03-05-1.png" alt="" width="150">
+
 [https://github.com/material-components/material-components-android/issues/3969](https://github.com/material-components/material-components-android/issues/3969)，[https://github.com/material-components/material-components-android/issues/4139](https://github.com/material-components/material-components-android/issues/4139)が思い出されます．
 
 [https://issuetracker.google.com/issues/400894495](https://issuetracker.google.com/issues/400894495)
