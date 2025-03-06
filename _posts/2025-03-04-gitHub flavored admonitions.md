@@ -15,3 +15,4 @@ categories: [Jekyll, GitHub Flavored Admonitions]
 しかし，[Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy)と相性がよくないようです…（[https://github.com/Helveg/jekyll-gfm-admonitions/issues/9](https://github.com/Helveg/jekyll-gfm-admonitions/issues/9)）．
 よくなるでしょうか？
 早速，よくなりました．
+警告の終わりがGitHubと違います（[https://github.com/Helveg/jekyll-gfm-admonitions/pull/8#issuecomment-2696180859](https://github.com/Helveg/jekyll-gfm-admonitions/pull/8#issuecomment-2696180859)）．
