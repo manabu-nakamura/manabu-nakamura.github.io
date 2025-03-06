@@ -14,3 +14,4 @@ categories: [Jekyll, GitHub Flavored Admonitions]
 少し問題がありましたが，先日，よくなりました（[https://github.com/Helveg/jekyll-gfm-admonitions/issues/7](https://github.com/Helveg/jekyll-gfm-admonitions/issues/7)）．
 しかし，[Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy)と相性がよくないようです…（[https://github.com/Helveg/jekyll-gfm-admonitions/issues/9](https://github.com/Helveg/jekyll-gfm-admonitions/issues/9)）．
 よくなるでしょうか？
+早速，よくなりました．
