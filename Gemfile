@@ -14,6 +14,6 @@ end
 gem "wdm", "~> 0.2.0", :platforms => [:mingw, :x64_mingw, :mswin]
 
 group :jekyll_plugins do
-  gem 'jekyll-gfm-admonitions'
-#  gem 'aaa', path: '.'
+#  gem 'jekyll-gfm-admonitions'
+  gem 'aaa', path: '.'
 end

@@ -226,5 +226,5 @@ jekyll-archives:
     category: /categories/:name/
 
 plugins:
-  - jekyll-gfm-admonitions
-#  - aaa
+#  - jekyll-gfm-admonitions
+  - aaa
