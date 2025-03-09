@@ -14,8 +14,8 @@ module Jekyll
     end
 
     def convert(content)
-      content.gsub!(/<blockquote>(.*)<\/blockquote>/m, '<pre>\1</pre>')
-#      content.gsub!(/<blockquote>.*<p>(.*)<\/p>.*<\/blockquote>/m, '<pre>\1</pre>')
+#      content.gsub!(/<blockquote>(.*)<\/blockquote>/m, '<pre>\1</pre>')
+      content.gsub!(/<blockquote>.*<p>(.*)<\/p>.*<\/blockquote>/m, '<pre>\1</pre>')
       content
     end
   end
