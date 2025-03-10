@@ -227,7 +227,6 @@ jekyll-archives:
 
 kramdown:
   input: GFM
-  hard_wrap: false
 
 plugins:
   - jekyll-gfm-admonitions
