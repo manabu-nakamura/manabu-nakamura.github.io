@@ -225,5 +225,9 @@ jekyll-archives:
     tag: /tags/:name/
     category: /categories/:name/
 
+kramdown:
+  input: GFM
+  hard_wrap: false
+
 plugins:
   - jekyll-gfm-admonitions
