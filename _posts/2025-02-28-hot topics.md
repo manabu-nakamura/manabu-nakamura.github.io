@@ -40,7 +40,7 @@ Contributions and App ([Material Components for Android](https://github.com/mate
       - [[Catalog][BottomSheet] foreground color of status bar changes if bottom sheet is opened multiple times](https://github.com/material-components/material-components-android/issues/3940)
       - [[TabLayout] ripple of TabLayout is different from ripple of other components](https://github.com/material-components/material-components-android/issues/3157) 🟥
     - [Comments](https://github.com/material-components/material-components-android/issues?q=commenter%3Amanabu-nakamura)
-  - [App](https://github.com/manabu-nakamura/app) 🟥
+  - [App](https://github.com/manabu-nakamura/app) and [Memo](https://github.com/manabu-nakamura/app/blob/main/docs/memo.md) 🟥
 - [Jetpack Compose](https://developer.android.com/compose)
   - [Contributions](https://github.com/android/compose-samples/issues?q=author%3Amanabu-nakamura) 🟥
-  - [App](https://github.com/manabu-nakamura/appc) 🟥
+  - [App](https://github.com/manabu-nakamura/appc) and [Memo](https://github.com/manabu-nakamura/appc/blob/main/docs/memo.md) 🟥
