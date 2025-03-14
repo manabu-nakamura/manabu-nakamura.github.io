@@ -10,4 +10,4 @@ categories: [Android]
 
 [https://issuetracker.google.com/issues/400894495](https://issuetracker.google.com/issues/400894495)
 
-写真選択ツールも背景（スクリム）が濃いです：[https://github.com/material-components/material-components-android/issues/4295](https://github.com/material-components/material-components-android/issues/4295)，[https://github.com/material-components/material-components-android/issues/3635](https://github.com/material-components/material-components-android/issues/3635)．
+写真選択ツールも背景（スクリム）が濃すぎます：[https://github.com/material-components/material-components-android/issues/3635](https://github.com/material-components/material-components-android/issues/3635)，[https://github.com/material-components/material-components-android/issues/4295](https://github.com/material-components/material-components-android/issues/4295)．今のところ，薄くする方法が分かりません．
