@@ -1,7 +1,7 @@
 ---
 title: Hot Topics
 categories: [Hot Topics]
-tags: [Material Components for Android, Jetpack Compose]
+tags: [Android, Material Components for Android, Jetpack Compose]
 pin: true
 ---
 Contributions and App ([Material Components for Android](https://github.com/material-components/material-components-android) and [Jetpack Compose](https://developer.android.com/compose))
