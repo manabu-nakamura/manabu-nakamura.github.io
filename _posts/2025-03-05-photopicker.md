@@ -1,5 +1,5 @@
 ---
-title: Photo Picker
+title: PhotoPicker
 categories: [Android]
 tags: [Android]
 ---
