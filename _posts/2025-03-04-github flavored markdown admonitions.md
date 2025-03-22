@@ -1,7 +1,7 @@
 ---
 title: GitHub Flavored Markdown Admonitions
 categories: [Jekyll, GitHub Flavored Markdown Admonitions]
-tags: [Jekyll]
+tags: [Jekyll, GitHub Flavored Markdown Admonitions]
 ---
 [GitHub Pages](https://pages.github.com/)上では，[警告](https://docs.github.com/ja/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts)がレンダリングされません．[GitHub Flavored Markdown Admonitions](https://github.com/Helveg/jekyll-gfm-admonitions)プラグインを使用するとレンダリングされるようになります．
 
