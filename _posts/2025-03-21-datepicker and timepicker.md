@@ -3,7 +3,7 @@ title: DatePicker and TimePicker
 categories: [Android, Material Components for Android]
 tags: [Android, Material Components for Android]
 ---
-[ダイアログ](https://developer.android.com/develop/ui/views/components/dialogs?hl=ja)は，[`DialogFragment`](https://developer.android.com/reference/androidx/fragment/app/DialogFragment)とともに使用するべきです．端末を回転させた後，`DialogFragment`のインスタンスが自動的に再生成され，[`onCreateDialog`](https://developer.android.com/reference/androidx/fragment/app/DialogFragment#onCreateDialog(android.os.Bundle))`()`メソッドが呼び出され，ダイアログのインスタンスも再生成されます．その際に，イベントリスナー①なども設定されます．
+[ダイアログ](https://developer.android.com/develop/ui/views/components/dialogs?hl=ja)は，[`DialogFragment`](https://developer.android.com/reference/androidx/fragment/app/DialogFragment)とともに使用するべきです．端末の回転後，`DialogFragment`のインスタンスが自動的に再生成され，[`onCreateDialog`](https://developer.android.com/reference/androidx/fragment/app/DialogFragment#onCreateDialog(android.os.Bundle))`()`メソッドが呼び出され，ダイアログのインスタンスも再生成されます．その際に，イベントリスナー①なども設定されます．
 ```java
 public class MainActivity extends AppCompatActivity {
     public void foo(MenuItem menuItem) {
@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 ```
-[`MaterialDatePicker`](https://developer.android.com/reference/com/google/android/material/datepicker/MaterialDatePicker)，[`MaterialTimePicker`](https://developer.android.com/reference/com/google/android/material/timepicker/MaterialTimePicker)は，日付，時刻の選択ツールで，`DialogFragment`をextendsしています．端末を回転させた後，日付，時刻選択ツールのインスタンスは自動的に再生成されます．その際に，イベントリスナー②などは設定されません．アクティビティが（再）生成された際に，起動されている日付，時刻選択ツールにイベントリスナー③などを設定することができます（[https://github.com/material-components/material-components-android/issues/1688](https://github.com/material-components/material-components-android/issues/1688)，[https://github.com/material-components/material-components-android/issues/4498](https://github.com/material-components/material-components-android/issues/4498)）．もっといい方法はないでしょうか？
+[`MaterialDatePicker`](https://developer.android.com/reference/com/google/android/material/datepicker/MaterialDatePicker)，[`MaterialTimePicker`](https://developer.android.com/reference/com/google/android/material/timepicker/MaterialTimePicker)は，日付，時刻の選択ツールで，`DialogFragment`をextendsしています．端末の回転後，日付，時刻選択ツールのインスタンスは自動的に再生成されます．その際に，イベントリスナー②などは設定されません．アクティビティが（再）生成された際に，起動されている日付，時刻選択ツールにイベントリスナー③などを設定することができます（[https://github.com/material-components/material-components-android/issues/1688](https://github.com/material-components/material-components-android/issues/1688)，[https://github.com/material-components/material-components-android/issues/4498](https://github.com/material-components/material-components-android/issues/4498)）．もっといい方法はないでしょうか？
 ```java
 public class MainActivity extends AppCompatActivity {
     @Override
