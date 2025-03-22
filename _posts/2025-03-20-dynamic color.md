@@ -26,7 +26,7 @@ tags: [Android, Material Components for Android]
     </application>
 </manifest>
 ```
-`Theme.Material3.DynamicColors.DayNight.NoActionBar`テーマは，アプリをダイナミックカラー，[ダークテーマ](https://developer.android.com/develop/ui/views/theming/darktheme?hl=ja)にし，[windowNoTitle](https://developer.android.com/reference/android/R.attr#windowNoTitle)をtrueにするテーマです．`Theme.Material3.DynamicColors.*`テーマ（またはそれを継承するテーマ）ではなく，`Theme.Material3.*`テーマ（またはそれを継承するテーマ）を使用することもできますが，アプリをダイナミックカラーにするためには，[`DynamicColors`](https://developer.android.com/reference/com/google/android/material/color/DynamicColors)`.`[`applyToActivityIfAvailable`](https://developer.android.com/reference/com/google/android/material/color/DynamicColors#applyToActivityIfAvailable(android.app.Activity))`()`を呼び出す必要があります．
+`Theme.Material3.DynamicColors.DayNight.NoActionBar`テーマは，アプリを[Material Design 3](https://m3.material.io/)，ダイナミックカラー，[ダークテーマ](https://developer.android.com/develop/ui/views/theming/darktheme?hl=ja)にし，[windowNoTitle](https://developer.android.com/reference/android/R.attr#windowNoTitle)をtrueにするテーマです．`Theme.Material3.DynamicColors.*`テーマ（またはそれを継承するテーマ）ではなく，`Theme.Material3.*`テーマ（またはそれを継承するテーマ）を使用することもできますが，アプリをダイナミックカラーにするためには，[`DynamicColors`](https://developer.android.com/reference/com/google/android/material/color/DynamicColors)`.`[`applyToActivityIfAvailable`](https://developer.android.com/reference/com/google/android/material/color/DynamicColors#applyToActivityIfAvailable(android.app.Activity))`()`を呼び出す必要があります．
 
 `app/src/main/java/com/github/manabu_nakamura/test/MainActivity.java`:
 ```java
@@ -40,3 +40,5 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 ダイナミックカラーにより色の選択が楽になります．細かい設定も可能です．問題も残っています（[https://github.com/material-components/material-components-android/issues/3969](https://github.com/material-components/material-components-android/issues/3969)，[https://github.com/material-components/material-components-android/issues/4139](https://github.com/material-components/material-components-android/issues/4139)，[https://issuetracker.google.com/issues/400894495](https://issuetracker.google.com/issues/400894495)，[https://issuetracker.google.com/issues/369781732](https://issuetracker.google.com/issues/369781732)）．ライブラリも公開されています（[https://github.com/material-foundation/material-color-utilities](https://github.com/material-foundation/material-color-utilities)）．
+
+余談ですが，`Theme.Material3Expressive`テーマが作成中です．
