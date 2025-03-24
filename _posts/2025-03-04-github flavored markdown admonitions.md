@@ -9,10 +9,13 @@ tags: [Jekyll, GitHub Flavored Markdown Admonitions]
 > foo
 ```
 ⬇️
-> \[!NOTE\]
-> foo
+> <p>[!NOTE] foo</p>
 
 [GitHub Flavored Markdown Admonitions](https://github.com/Helveg/jekyll-gfm-admonitions)プラグインを使用するとレンダリングされるようになります．
+```markdown
+> [!NOTE]
+> foo
+```
 ⬇️
 > [!NOTE]
 > foo
