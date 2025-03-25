@@ -16,7 +16,7 @@ tags: [Android, Material Components for Android, Dynamic Color(s)]
 </resources>
 ```
 `app/src/main/AndroidManifest.xml`:
-```xml
+```
 <manifest
     xmlns:android="http://schemas.android.com/apk/res/android">
     <application
