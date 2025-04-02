@@ -43,4 +43,4 @@ public class MainActivity extends AppCompatActivity {
 
 <img src="../assets/img/2025-03-20-1.png" alt="" width="150"><img src="../assets/img/2025-03-20-2.png" alt="" width="150"><img src="../assets/img/2025-03-20-3.png" alt="" width="150">
 
-ライブラリも公開されています（[https://github.com/material-foundation/material-color-utilities](https://github.com/material-foundation/material-color-utilities)）．余談ですが，`Theme.Material3Expressive.*`テーマが開発中です．`Theme.MaterialComponents.*`テーマはMaterial Design 1，2用のテーマです．
+ライブラリも公開されています（[https://github.com/material-foundation/material-color-utilities](https://github.com/material-foundation/material-color-utilities)）．余談ですが，新しい`Theme.Material3Expressive.*`テーマが開発されています．`Theme.MaterialComponents.*`テーマはMaterial Design 1，2用のテーマです．
