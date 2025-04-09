@@ -1,7 +1,7 @@
 ---
 title: GitHub Flavored Markdown Admonitions
 categories: [Jekyll, GitHub Flavored Markdown Admonitions]
-tags: [Jekyll, GitHub Flavored Markdown Admonitions]
+tags: [Jekyll, GitHub Flavored Markdown Admonitions, Chirpy]
 ---
 [GitHub Pages](https://pages.github.com/)上では，[警告](https://docs.github.com/ja/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts)がレンダリングされません（[引用](https://docs.github.com/ja/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#quoting-text)として扱われます）．
 ```markdown
@@ -86,3 +86,24 @@ quux
 > foo
 > > [!NOTE]
 > > bar
+
+Chirpyにはプロンプトもあります．
+```markdown
+> tip
+{: .prompt-tip }
+> info
+{: .prompt-info }
+> warning
+{: .prompt-warning }
+> danger
+{: .prompt-danger }
+```
+⬇️
+> tip
+{: .prompt-tip }
+> info
+{: .prompt-info }
+> warning
+{: .prompt-warning }
+> danger
+{: .prompt-danger }
