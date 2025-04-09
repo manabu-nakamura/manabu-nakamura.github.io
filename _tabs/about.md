@@ -13,3 +13,9 @@ order: 4
 > - C#
 > - ...
 {: .prompt-info }
+> tip
+{: .prompt-tip }
+> warning
+{: .prompt-warning }
+> danger
+{: .prompt-danger }
