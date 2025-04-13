@@ -3,7 +3,7 @@ title: Material Components for Android
 categories: [Android, Material Components for Android]
 tags: [Android, Material Components for Android]
 ---
-2025年2月以降，[Material Components for Android](https://github.com/material-components/material-components-android)のpull requestはあまりマージされていないようです（2024年前半もそうでした）．新機能は追加されています．
+2025年2月以降，[Material Components for Android](https://github.com/material-components/material-components-android)のpull requestはあまりマージされていないようです（2024年前半もそうでした）．レイオフの影響でしょうか？　新機能は追加されています．
 
 [https://github.com/material-components/material-components-android/pulse/monthly](https://github.com/material-components/material-components-android/pulse/monthly)
 
