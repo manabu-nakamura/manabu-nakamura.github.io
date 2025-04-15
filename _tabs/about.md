@@ -4,6 +4,8 @@ icon: fas fa-info-circle
 order: 4
 ---
 > I'm interested in
+> - Visual Studio Code
+> - GitHub Pages
 > - Android
 >   - [Material Components for Android](https://github.com/material-components/material-components-android)
 >   - [Jetpack Compose](https://developer.android.com/compose)
