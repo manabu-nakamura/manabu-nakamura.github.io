@@ -1,7 +1,7 @@
 ---
 title: Hot Topics
 categories: [Hot Topics]
-tags: [Visual Studio Code, Code - OSS, GitHub Flavored Markdown Admonitions, Chirpy, Android, Material Components for Android, Jetpack Compose]
+tags: [Visual Studio Code, Code - OSS, GitHub Pages, GitHub Flavored Markdown Admonitions, Chirpy, Android, Material Components for Android, Jetpack Compose]
 pin: true
 ---
 - [Contributions](https://github.com/issues?q=author%3Amanabu-nakamura%20OR%20commenter%3Amanabu-nakamura)
