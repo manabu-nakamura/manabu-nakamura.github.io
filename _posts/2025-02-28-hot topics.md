@@ -14,7 +14,7 @@ pin: true
   - [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy)
     - [Contributions](https://github.com/cotes2020/jekyll-theme-chirpy/issues?q=author%3Amanabu-nakamura%20OR%20commenter%3Amanabu-nakamura)
   - [Material Components for Android](https://github.com/material-components/material-components-android)\
-🟥 [PRs are not directly merged into the repository](https://github.com/material-components/material-components-android/blob/master/docs/contributing.md#pull-request-process)
+([PRs are not directly merged into the repository](https://github.com/material-components/material-components-android/blob/master/docs/contributing.md#pull-request-process))
     - [Contributions](https://github.com/material-components/material-components-android/issues?q=author%3Amanabu-nakamura%20OR%20commenter%3Amanabu-nakamura) 🟥
       - [Commits](https://github.com/material-components/material-components-android/commits?author=manabu-nakamura)
       - Closed:
