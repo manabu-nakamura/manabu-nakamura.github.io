@@ -10,4 +10,6 @@ tags: [Android, PhotoPicker, Dynamic Color(s)]
 
 [https://github.com/material-components/material-components-android/issues/3969](https://github.com/material-components/material-components-android/issues/3969)，[https://github.com/material-components/material-components-android/issues/4139](https://github.com/material-components/material-components-android/issues/4139)が思い出されます．
 
-背景（スクリム）が濃すぎます：[https://issuetracker.google.com/issues/403485646](https://issuetracker.google.com/issues/403485646)，[https://github.com/material-components/material-components-android/issues/3635](https://github.com/material-components/material-components-android/issues/3635)．今のところ，薄くする方法が分かりません．
+背景（スクリム）が濃すぎます：[https://issuetracker.google.com/issues/403485646](https://issuetracker.google.com/issues/403485646)，[https://github.com/material-components/material-components-android/issues/3635](https://github.com/material-components/material-components-android/issues/3635)．薄くする方法が分かりません．
+
+Android 16でダイアログのスクリムが濃くなっています（汗）：[https://issuetracker.google.com/issues/414723477](https://issuetracker.google.com/issues/414723477)．

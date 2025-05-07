@@ -5,9 +5,9 @@ tags: [Android, Material Components for Android, Dynamic Color(s)]
 ---
 [ダイナミックカラー](https://developer.android.com/develop/ui/views/theming/dynamic-colors?hl=ja)のいいドキュメントが見当たりません．
 
-アプリをダイナミックカラーにするためには，`Theme.Material3.DynamicColors.*`テーマ（またはそれを継承するテーマ）をセットするだけで十分です．
+アプリをダイナミックカラーにするためには，Theme.Material3.DynamicColors.*テーマ（またはそれを継承するテーマ）をセットするだけで十分です．
 
-`app/src/main/res/values/themes.xml`:
+app/src/main/res/values/themes.xml:
 ```xml
 <resources>
     <style name="Theme.App" parent="Theme.Material3.DynamicColors.DayNight.NoActionBar">
@@ -15,7 +15,7 @@ tags: [Android, Material Components for Android, Dynamic Color(s)]
     </style>
 </resources>
 ```
-`app/src/main/AndroidManifest.xml`:
+app/src/main/AndroidManifest.xml:
 ```
 <manifest
     xmlns:android="http://schemas.android.com/apk/res/android">
@@ -26,9 +26,11 @@ tags: [Android, Material Components for Android, Dynamic Color(s)]
     </application>
 </manifest>
 ```
-`Theme.Material3.DynamicColors.DayNight.NoActionBar`テーマは，アプリを[Material Design 3](https://m3.material.io/)，ダイナミックカラー，[ダークテーマ対応](https://developer.android.com/develop/ui/views/theming/darktheme?hl=ja)にし，[windowNoTitle](https://developer.android.com/reference/android/R.attr#windowNoTitle)をtrueにするテーマです．`Theme.Material3.DynamicColors.*`テーマ（またはそれを継承するテーマ）ではなく，`Theme.Material3.*`テーマ（またはそれを継承するテーマ）を使用することもできますが，アプリをダイナミックカラーにするためには，[`DynamicColors`](https://developer.android.com/reference/com/google/android/material/color/DynamicColors).[`applyToActivityIfAvailable`](https://developer.android.com/reference/com/google/android/material/color/DynamicColors#applyToActivityIfAvailable(android.app.Activity))()を呼び出す必要があります．
+Theme.Material3.DynamicColors.DayNight.NoActionBarテーマは，アプリを[Material Design 3](https://m3.material.io/)，ダイナミックカラー，[ダークテーマ対応](https://developer.android.com/develop/ui/views/theming/darktheme?hl=ja)にし，[windowNoTitle](https://developer.android.com/reference/android/R.attr#windowNoTitle)をtrueにするテーマです．
 
-`app/src/main/java/com/github/manabu_nakamura/test/MainActivity.java`:
+Theme.Material3.DynamicColors.*テーマ（またはそれを継承するテーマ）ではなく，Theme.Material3.*テーマ（またはそれを継承するテーマ）を使用することもできますが，アプリをダイナミックカラーにするためには，[DynamicColors](https://developer.android.com/reference/com/google/android/material/color/DynamicColors).[applyToActivityIfAvailable](https://developer.android.com/reference/com/google/android/material/color/DynamicColors#applyToActivityIfAvailable(android.app.Activity))()を呼び出す必要があります．
+
+app/src/main/java/com/github/manabu_nakamura/test/MainActivity.java:
 ```java
 public class MainActivity extends AppCompatActivity {
     @Override
@@ -43,4 +45,4 @@ public class MainActivity extends AppCompatActivity {
 
 <img src="../assets/img/2025-03-20-1.png" alt="" width="150"><img src="../assets/img/2025-03-20-2.png" alt="" width="150"><img src="../assets/img/2025-03-20-3.png" alt="" width="150">
 
-ライブラリも公開されています（[https://github.com/material-foundation/material-color-utilities](https://github.com/material-foundation/material-color-utilities)）．余談ですが，新しい`Theme.Material3Expressive.*`テーマが開発されています．`Theme.MaterialComponents.*`テーマはMaterial Design 1，2用のテーマです．
+ライブラリも公開されています（[https://github.com/material-foundation/material-color-utilities](https://github.com/material-foundation/material-color-utilities)）．余談ですが，新しいTheme.Material3Expressive.*テーマが開発されています．Theme.MaterialComponents.*テーマはMaterial Design 1，2用のテーマです．
