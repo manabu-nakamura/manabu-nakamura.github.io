@@ -1,7 +1,7 @@
 ---
 title: Visual Studio Code
 categories: [Visual Studio Code]
-tags: [Visual Studio Code, Visual Studio Code Insiders, Code - OSS]
+tags: [Visual Studio Code]
 ---
 [Visual Studio Code](https://code.visualstudio.com/)を観察しながら使っています．
 
