@@ -9,10 +9,15 @@ pin: true
     - [Contributions](https://github.com/microsoft/vscode/issues?q=author%3Amanabu-nakamura%20OR%20commenter%3Amanabu-nakamura)
   - [Visual Studio Code Language Packs](https://github.com/microsoft/vscode-loc)
     - [Contributions](https://github.com/microsoft/vscode-loc/issues?q=author%3Amanabu-nakamura%20OR%20commenter%3Amanabu-nakamura)
-  - [GitHub Flavored Markdown Admonitions](https://github.com/Helveg/jekyll-gfm-admonitions)
-    - [Contributions](https://github.com/Helveg/jekyll-gfm-admonitions/issues?q=author%3Amanabu-nakamura%20OR%20commenter%3Amanabu-nakamura)
+  - [WinUI 3 Gallery](https://github.com/microsoft/WinUI-Gallery)
+    - [Contributions](https://github.com/microsoft/WinUI-Gallery/issues?q=author%3Amanabu-nakamura%20OR%20commenter%3Amanabu-nakamura)
   - [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy)
     - [Contributions](https://github.com/cotes2020/jekyll-theme-chirpy/issues?q=author%3Amanabu-nakamura%20OR%20commenter%3Amanabu-nakamura)
+  - [GitHub Flavored Markdown Admonitions](https://github.com/Helveg/jekyll-gfm-admonitions)
+    - [Contributions](https://github.com/Helveg/jekyll-gfm-admonitions/issues?q=author%3Amanabu-nakamura%20OR%20commenter%3Amanabu-nakamura)
+  - [Jetpack Compose](https://developer.android.com/compose)
+    - [Contributions](https://github.com/android/compose-samples/issues?q=author%3Amanabu-nakamura%20OR%20commenter%3Amanabu-nakamura) 🟥
+    - [App](https://github.com/manabu-nakamura/appc) and [Memo](https://github.com/manabu-nakamura/appc/blob/main/docs/memo.md) 🟥
   - [Material Components for Android](https://github.com/material-components/material-components-android)\
 ([PRs are not directly merged into the repository](https://github.com/material-components/material-components-android/blob/master/docs/contributing.md#pull-request-process))
     - [Contributions](https://github.com/material-components/material-components-android/issues?q=author%3Amanabu-nakamura%20OR%20commenter%3Amanabu-nakamura) 🟥
@@ -49,6 +54,3 @@ pin: true
         - [[Catalog][BottomSheet] foreground color of status bar changes if bottom sheet is opened multiple times](https://github.com/material-components/material-components-android/issues/3940)
         - [[TabLayout] ripple of TabLayout is different from ripple of other components](https://github.com/material-components/material-components-android/issues/3157) 🟥
     - [App](https://github.com/manabu-nakamura/app) and [Memo](https://github.com/manabu-nakamura/app/blob/main/docs/memo.md) 🟥
-  - [Jetpack Compose](https://developer.android.com/compose)
-    - [Contributions](https://github.com/android/compose-samples/issues?q=author%3Amanabu-nakamura%20OR%20commenter%3Amanabu-nakamura) 🟥
-    - [App](https://github.com/manabu-nakamura/appc) and [Memo](https://github.com/manabu-nakamura/appc/blob/main/docs/memo.md) 🟥
