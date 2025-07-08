@@ -13,3 +13,5 @@ tags: [Android, PhotoPicker, Dynamic Color(s)]
 背景（スクリム）が濃すぎます：[https://issuetracker.google.com/issues/403485646](https://issuetracker.google.com/issues/403485646)，[https://github.com/material-components/material-components-android/issues/3635](https://github.com/material-components/material-components-android/issues/3635)．薄くする方法が分かりません．
 
 Android 16でダイアログのスクリムが濃くなっています（汗）：[https://issuetracker.google.com/issues/414723477](https://issuetracker.google.com/issues/414723477)．
+
+写真選択ツールがAndroid 16の一部として提供されるようです（[https://developer.android.com/reference/android/widget/photopicker/package-summary](https://developer.android.com/reference/android/widget/photopicker/package-summary)）．
