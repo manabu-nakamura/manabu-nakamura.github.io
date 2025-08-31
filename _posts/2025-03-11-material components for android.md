@@ -14,6 +14,6 @@ tags: [Android, Material Components for Android, Material 3 Expressive]
 > - [Material 3 Expressive](https://m3.material.io/blog/building-with-m3-expressive)
 > - New [DockedToolbar](https://github.com/material-components/material-components-android/blob/master/docs/components/DockedToolbar.md) component!
 > - New [FloatingToolbar](https://github.com/material-components/material-components-android/blob/master/docs/components/FloatingToolbar.md) component!
-> - New [SplitButton](https://github.com/material-components/material-components-android/blob/master/docs/components/Button.md#split-button) component!
+> - New [SplitButton](https://github.com/material-components/material-components-android/blob/master/docs/components/SplitButton.md) component!
 
 [Jetpack Compose](https://developer.android.com/compose)に力を入れているんでしょうが，まだかゆいところに手が届きませんし，[IssueTracker](https://issuetracker.google.com/)での反応もいまいちで議論ができませんし…．
