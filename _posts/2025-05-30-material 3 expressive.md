@@ -20,7 +20,7 @@ Material 3 Expressiveに関係なく，廃止される予定です：
 
 - [bottom app bar](https://github.com/material-components/material-components-android/blob/master/docs/components/BottomAppBar.md)
 
-Material Components for Android 1.13.0-rc01でも使用できます：
+Material 3 ExpressiveをサポートしないMaterial Components for Android 1.13.0-rc01でも使用できます：
 
 - [docked toolbar](https://github.com/material-components/material-components-android/blob/master/docs/components/DockedToolbar.md)
  - [floating toolbar](https://github.com/material-components/material-components-android/blob/master/docs/components/FloatingToolbar.md)
