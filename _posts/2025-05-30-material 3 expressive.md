@@ -16,7 +16,7 @@ Material 3 Expressiveで廃止される予定です：
 - [segmented button](https://github.com/material-components/material-components-android/blob/master/docs/components/ToggleButtonGroup.md)
 - [navigation drawer](https://github.com/material-components/material-components-android/blob/master/docs/components/NavigationDrawer.md)
 
-Material 3 Expressiveに関係せず，廃止される予定です：
+Material 3 Expressiveに関係なく，廃止される予定です：
 
 - [bottom app bar](https://github.com/material-components/material-components-android/blob/master/docs/components/BottomAppBar.md)
 
