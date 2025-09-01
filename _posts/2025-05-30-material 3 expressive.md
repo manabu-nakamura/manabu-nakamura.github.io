@@ -11,12 +11,14 @@ tags: [Android, Material Components for Android, Material 3 Expressive]
 
 よく見ると，Android 12ぐらいから設定，ロックNo.を入力するインタフェースなどがどんどんexpressiveになっていますね．
 
+Material 3 ExpressiveはMaterial Components for Android 1.14.0-alpha01以降で使用できます（1.13.0-alpha11～1.13.0-alpha13で一時的に使用できました）．
+
 Material 3 Expressiveで廃止される予定です：
 
 - [segmented button](https://github.com/material-components/material-components-android/blob/master/docs/components/ToggleButtonGroup.md)
 - [navigation drawer](https://github.com/material-components/material-components-android/blob/master/docs/components/NavigationDrawer.md)
 
-Material 3 Expressiveに関係なく，廃止される予定です：
+Material 3 Expressiveに関係なく（Material 3でも）廃止される予定です：
 
 - [bottom app bar](https://github.com/material-components/material-components-android/blob/master/docs/components/BottomAppBar.md)
 
@@ -25,5 +27,9 @@ Material 3 ExpressiveをサポートしないMaterial Components for Android 1.1
 - [docked toolbar](https://github.com/material-components/material-components-android/blob/master/docs/components/DockedToolbar.md)
 - [floating toolbar](https://github.com/material-components/material-components-android/blob/master/docs/components/FloatingToolbar.md)
 - [split button](https://github.com/material-components/material-components-android/blob/master/docs/components/SplitButton.md)
+
+Material Components for Android 1.13.0-rc01では使用できません：
+
+- [overflow linear layout](https://github.com/material-components/material-components-android/blob/master/docs/components/OverflowLinearLayout.md)
 
 分かりにくいです…．
