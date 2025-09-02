@@ -11,6 +11,8 @@ tags: [Android, Material Components for Android, Material 3 Expressive]
 
 よく見ると，Android 12ぐらいから設定，ロックNo.を入力するインタフェースなどがどんどんexpressiveになっていますね．
 
+今回（Material 3 Expressiveのリリースのタイミングで）Material 3は過去のものになるわけではありません．
+
 Material 3 ExpressiveはMaterial Components for Android 1.14.0-alpha01以降で使用できます（1.13.0-alpha11～1.13.0-alpha13で一時的に使用できました）．
 
 Material 3 Expressiveで廃止される予定です：
