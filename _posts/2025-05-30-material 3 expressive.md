@@ -11,9 +11,11 @@ tags: [Android, Material Components for Android, Material 3 Expressive]
 
 よく見ると，Android 12ぐらいから設定，ロックNo.を入力するインタフェースなどがどんどんexpressiveになっていますね．
 
-Material 3 ExpressiveのリリースのタイミングでMaterial 3は過去のものになるわけではありません．
+…
 
-Material 3 ExpressiveはMaterial Components for Android 1.14.0-alpha01以降で使用できます（1.13.0-alpha13以前で一時的に使用できました）．
+Material 3 ExpressiveのリリースのタイミングでMaterial 3は過去のものになるわけではないそうです．
+
+Material 3 Expressiveは[Material Components for Android](https://github.com/material-components/material-components-android) 1.14.0-alpha01以降で使用できます（1.13.0-alpha13以前で一時的に使用できました）．
 
 Material 3 Expressiveで廃止される予定です：
 
@@ -30,7 +32,7 @@ Material Components for Androidでは使用できません：
 
 - [fab menu](https://github.com/material-components/material-components-android/blob/master/docs/components/FloatingActionButtonMenu.md)
 
-（Material 3 Expressiveを使用できない）Material Components for Android 1.13.0-rc01でも使用できます：
+（Material 3 Expressiveを使用できない）Material Components for Android 1.13.0でも使用できます：
 
 - [button group](https://github.com/material-components/material-components-android/blob/master/docs/components/ButtonGroup.md)
 - [docked toolbar](https://github.com/material-components/material-components-android/blob/master/docs/components/DockedToolbar.md)
@@ -38,7 +40,7 @@ Material Components for Androidでは使用できません：
 - [loading indicator](https://github.com/material-components/material-components-android/blob/master/docs/components/LoadingIndicator.md)
 - [split button](https://github.com/material-components/material-components-android/blob/master/docs/components/SplitButton.md)
 
-Material Components for Android 1.13.0-rc01では使用できません：
+Material Components for Android 1.13.0では使用できません：
 
 - [overflow linear layout](https://github.com/material-components/material-components-android/blob/master/docs/components/OverflowLinearLayout.md)
 
