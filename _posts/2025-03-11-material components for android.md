@@ -19,4 +19,4 @@ tags: [Android, Material Components for Android, Material 3 Expressive]
 
 [https://m3.material.io/blog/building-with-m3-expressive](https://m3.material.io/blog/building-with-m3-expressive)
 
-[Jetpack Compose](https://developer.android.com/compose)に力を入れているんでしょうが，まだかゆいところに手が届きませんし，[IssueTracker](https://issuetracker.google.com/)での反応もいまいちで議論ができませんし…．
+[Jetpack Compose](https://developer.android.com/compose)に力を入れているんでしょうが，まだかゆいところに手が届きませんし，[IssueTracker](https://issuetracker.google.com/)での反応もいまいちで議論ができませんし，（GitHubではないので）開発に参加しにくいですし…．
