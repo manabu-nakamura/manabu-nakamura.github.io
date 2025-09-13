@@ -13,7 +13,7 @@ tags: [Android, Material Components for Android, Material 3 Expressive]
 
 …
 
-Material 3 ExpressiveのリリースのタイミングでMaterial 3は過去のものになるわけではないそうです．
+Material 3 Expressiveの登場でMaterial 3が過去のものになるわけではないそうです．
 
 Material 3 Expressiveは[Material Components for Android](https://github.com/material-components/material-components-android) 1.14.0-alpha01以降で使用できます（1.13.0-alpha13以前で一時的に使用できました）．
 
