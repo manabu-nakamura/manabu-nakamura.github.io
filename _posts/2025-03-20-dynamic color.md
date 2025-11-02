@@ -29,6 +29,24 @@ Theme.Material3.DynamicColors.DayNight.NoActionBarテーマは，アプリを[Ma
 
 Theme.Material3.DynamicColors.*テーマ（またはそれを継承するテーマ）ではなく，Theme.Material3.*テーマ（またはそれを継承するテーマ）を使用することもできますが，アプリをダイナミックカラーにするためには，[DynamicColors](https://developer.android.com/reference/com/google/android/material/color/DynamicColors).[applyToActivityIfAvailable](https://developer.android.com/reference/com/google/android/material/color/DynamicColors#applyToActivityIfAvailable(android.app.Activity))()を呼び出す必要があります．
 
+app/src/main/res/values/themes.xml:
+```xml
+<resources>
+    <style name="Theme.App" parent="Theme.Material3.DayNight.NoActionBar">
+        ...
+    </style>
+</resources>
+```
+app/src/main/AndroidManifest.xml:
+```xml
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <application
+        android:theme="@style/Theme.App">
+        ...
+    </application>
+</manifest>
+```
 app/src/main/java/com/github/manabu_nakamura/test/MainActivity.java:
 ```java
 public class MainActivity extends AppCompatActivity {
