@@ -3,7 +3,7 @@ title: GitHub Flavored Markdown Admonitions
 categories: [GitHub Pages, GitHub Flavored Markdown Admonitions]
 tags: [GitHub Pages, GitHub Flavored Markdown Admonitions, Chirpy]
 ---
-[GitHub Pages](https://pages.github.com/)上では，[警告](https://docs.github.com/ja/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts)がレンダリングされず，[引用](https://docs.github.com/ja/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#quoting-text)として扱われます（ページの言語を日本語にすると，警告の「Note」が「メモ」になってますね…どういうでしょう？）．
+[GitHub Pages](https://pages.github.com/)上では，[警告](https://docs.github.com/ja/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts)がレンダリングされず，[引用](https://docs.github.com/ja/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#quoting-text)として扱われます（ページの言語を日本語にすると，警告の「Note」が「メモ」になってますね…）．
 ```markdown
 > [!NOTE]
 > foo
