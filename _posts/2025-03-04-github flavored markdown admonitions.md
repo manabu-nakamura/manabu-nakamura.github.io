@@ -87,7 +87,7 @@ quux
 > > [!NOTE]
 > > bar
 
-余談ですが，Chirpyにはプロンプトもあります．
+余談ですが，Chirpyには[プロンプト](https://chirpy.cotes.page/posts/write-a-new-post/#prompts)もあります．
 ```markdown
 > tip
 {: .prompt-tip }
