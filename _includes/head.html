@@ -58,7 +58,7 @@
   <title>
     {%- unless page.layout == 'home' -%}
       {% assign tab_key = page.title | downcase %}
-      {{ site.data.locales[include.lang].tabs[tab_key] | default: page.title | append: ' | ' }}
+      {{ site.data.locales[lang].tabs[tab_key] | default: page.title | append: ' | ' }}
     {%- endunless -%}
     {{ site.title }}
   </title>
