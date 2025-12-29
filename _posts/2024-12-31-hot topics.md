@@ -4,7 +4,7 @@ categories: [Hot Topics]
 tags: [Visual Studio Code, WinUI 3, Chirpy, Android, Jetpack Compose, Material Components for Android]
 pin: true
 ---
-- [Contributions](https://github.com/issues?q=author%3Amanabu-nakamura%20OR%20commenter%3Amanabu-nakamura)
+- [Contributions](https://github.com/issues?q=author%3Amanabu-nakamura%20OR%20commenter%3Amanabu-nakamura)（[Material Components for Android](https://github.com/material-components/material-components-android)リポジトリでは，[PRは直接マージされません](https://github.com/material-components/material-components-android/blob/master/docs/contributing.md#pull-request-process)）
   - [Visual Studio Code](https://github.com/microsoft/vscode)
     - [Contributions](https://github.com/microsoft/vscode/issues?q=author%3Amanabu-nakamura%20OR%20commenter%3Amanabu-nakamura)
   - [Visual Studio Code Language Packs](https://github.com/microsoft/vscode-loc)
@@ -18,8 +18,7 @@ pin: true
   - [Jetpack Compose](https://developer.android.com/compose)
     - [Contributions](https://github.com/android/compose-samples/issues?q=author%3Amanabu-nakamura%20OR%20commenter%3Amanabu-nakamura) 🟥
     - [App](https://github.com/manabu-nakamura/appc) and [Memo](https://github.com/manabu-nakamura/appc/blob/main/docs/memo.md) 🟥
-  - [Material Components for Android](https://github.com/material-components/material-components-android)\
-([PRs are not directly merged into the repository](https://github.com/material-components/material-components-android/blob/master/docs/contributing.md#pull-request-process))
+  - [Material Components for Android](https://github.com/material-components/material-components-android)（[PRは直接マージされません](https://github.com/material-components/material-components-android/blob/master/docs/contributing.md#pull-request-process)）
     - [Contributions](https://github.com/material-components/material-components-android/issues?q=author%3Amanabu-nakamura%20OR%20commenter%3Amanabu-nakamura) 🟥
       - [Commits](https://github.com/material-components/material-components-android/commits?author=manabu-nakamura)
       - Closed:
