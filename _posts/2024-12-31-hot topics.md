@@ -4,7 +4,7 @@ categories: [Hot Topics]
 tags: [Visual Studio Code, WinUI 3, Chirpy, Android, Jetpack Compose, Material Components for Android]
 pin: true
 ---
-- [Contributions](https://github.com/issues?q=author%3Amanabu-nakamura%20OR%20commenter%3Amanabu-nakamura)（[material-components-android](https://github.com/material-components/material-components-android)リポジトリでは，[PRは直接マージされません](https://github.com/material-components/material-components-android/blob/master/docs/contributing.md#pull-request-process)）
+- [Contributions](https://github.com/issues?q=author%3Amanabu-nakamura%20OR%20commenter%3Amanabu-nakamura)（[material-components-androidリポジトリ](https://github.com/material-components/material-components-android)では，[PRは直接マージされません](https://github.com/material-components/material-components-android/blob/master/docs/contributing.md#pull-request-process)）
   - [Visual Studio Code](https://github.com/microsoft/vscode)
     - [Contributions](https://github.com/microsoft/vscode/issues?q=author%3Amanabu-nakamura%20OR%20commenter%3Amanabu-nakamura)
   - [Visual Studio Code Language Packs](https://github.com/microsoft/vscode-loc)
