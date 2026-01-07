@@ -58,6 +58,7 @@ tags: [GitHub Pages, GitHub Flavored Markdown Admonitions, Chirpy]
 
 > [!CAUTION]
 > CAUTION
+
 ```markdown
 > foo
 > bar
