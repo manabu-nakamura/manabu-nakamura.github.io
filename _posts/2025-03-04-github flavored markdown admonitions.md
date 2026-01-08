@@ -34,10 +34,10 @@ tags: [GitHub Pages, GitHub Flavored Markdown Admonitions, Chirpy]
 > [!TIP]
 > TIP
 
-> [!IMPORTANT]  
+> [!IMPORTANT]
 > IMPORTANT
 
-> [!WARNING]  
+> [!WARNING]
 > WARNING
 
 > [!CAUTION]
@@ -50,10 +50,10 @@ tags: [GitHub Pages, GitHub Flavored Markdown Admonitions, Chirpy]
 > [!TIP]
 > TIP
 
-> [!IMPORTANT]  
+> [!IMPORTANT]
 > IMPORTANT
 
-> [!WARNING]  
+> [!WARNING]
 > WARNING
 
 > [!CAUTION]
