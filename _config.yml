@@ -16,7 +16,7 @@ timezone: Asia/Tokyo
 
 title: ブログ # the main title
 
-tagline: <a href="https://github.com/manabu-nakamura">Manabu Nakamura</a> # it will display as the subtitle
+tagline: Manabu Nakamura # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Visual Studio Code, WinUI 3, Chirpy, Android (Jetpack Compose, Material Components for Android, ...), Java, Kotlin, C#, ...
