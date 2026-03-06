@@ -1,0 +1,49 @@
+---
+title: Material 3 Expressive
+categories: [Android, Material Components for Android]
+tags: [Android, Material Components for Android, Material 3 Expressive]
+---
+新しいTheme.Material3Expressive.*テーマが開発されています（[https://m3.material.io/blog/building-with-m3-expressive](https://m3.material.io/blog/building-with-m3-expressive)）．
+
+Google Playストアアプリがexpressiveになってますね．
+
+鮮やかな色，アニメーションがいい感じです．
+
+アプリなどの背景色（colorSurface）とモーダルでない（スクリムがない）シートの背景色（colorSurfaceContainerLow）の差が小さいのが気になっています．私は，モーダルでない（スクリムがない）シートの背景色をcolorSurfaceContainerHighestにしています．指針を示して欲しいです．[https://m3.material.io/components/bottom-sheets/specs](https://m3.material.io/components/bottom-sheets/specs)がおかしいようですが…（[https://github.com/material-components/material-components-android/issues/4792](https://github.com/material-components/material-components-android/issues/4792)）．
+
+よく見ると，Android 12ぐらいから設定，ロックNo.を入力するインタフェースなどがどんどんexpressiveになってますね．
+
+…
+
+Material 3 Expressiveの登場でMaterial 3が過去のものになるわけではないそうです．
+
+Material 3 Expressiveは[Material Components for Android](https://github.com/material-components/material-components-android) 1.14.0-alpha01以降で使用できます（1.13.0-alphaでも使用できました（[https://github.com/material-components/material-components-android/pull/4803](https://github.com/material-components/material-components-android/pull/4803)））．
+
+Material 3 Expressiveで廃止される予定です：
+
+- [segmented button](https://github.com/material-components/material-components-android/blob/master/docs/components/ToggleButtonGroup.md)
+- [navigation drawer](https://github.com/material-components/material-components-android/blob/master/docs/components/NavigationDrawer.md)
+
+Material 3 Expressiveに関係なく（Material 3でも）廃止される予定です：
+
+- [bottom app bar](https://github.com/material-components/material-components-android/blob/master/docs/components/BottomAppBar.md)
+
+…
+
+Material Components for Androidでは使用できません：
+
+- [fab menu](https://github.com/material-components/material-components-android/blob/master/docs/components/FloatingActionButtonMenu.md)
+
+（Material 3 Expressiveを使用できない）Material Components for Android 1.13.0でも使用できます：
+
+- [button group](https://github.com/material-components/material-components-android/blob/master/docs/components/ButtonGroup.md)
+- [docked toolbar](https://github.com/material-components/material-components-android/blob/master/docs/components/DockedToolbar.md)
+- [floating toolbar](https://github.com/material-components/material-components-android/blob/master/docs/components/FloatingToolbar.md)
+- [loading indicator](https://github.com/material-components/material-components-android/blob/master/docs/components/LoadingIndicator.md)
+- [split button](https://github.com/material-components/material-components-android/blob/master/docs/components/SplitButton.md)
+
+Material Components for Android 1.13.0では使用できません：
+
+- [overflow linear layout](https://github.com/material-components/material-components-android/blob/master/docs/components/OverflowLinearLayout.md)
+
+分かりにくいです…．
