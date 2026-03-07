@@ -120,9 +120,9 @@ comments:
   # Giscus options › https://giscus.app
   giscus:
     repo: manabu-nakamura/manabu-nakamura.github.io # <gh-username>/<repo>
-    repo_id: R_kgDOOA1OLg
+    repo_id: R_kgDORf6ggA
     category: Announcements
-    category_id: DIC_kwDOOA1OLs4Cna-_
+    category_id: DIC_kwDORf6ggM4C34BL
     mapping: # optional, default to 'pathname'
     strict: # optional, default to '0'
     input_position: # optional, default to 'bottom'
