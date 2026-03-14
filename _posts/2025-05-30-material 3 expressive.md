@@ -5,7 +5,7 @@ tags: [Android, Material Components for Android, Material 3 Expressive]
 ---
 新しいTheme.Material3Expressive.*テーマが開発されています（[https://m3.material.io/blog/building-with-m3-expressive](https://m3.material.io/blog/building-with-m3-expressive)）．
 
-Google Playストアアプリがexpressiveになってますね．
+Google Playストアアプリがexpressiveになっていますね．
 
 鮮やかな色，アニメーションがいい感じです．
 
