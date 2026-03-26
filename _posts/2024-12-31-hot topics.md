@@ -7,12 +7,11 @@ pin: true
 - [貢献](https://github.com/issues?q=author%3Amanabu-nakamura%20OR%20commenter%3Amanabu-nakamura)（[material-components-androidリポジトリ](https://github.com/material-components/material-components-android)では，[PRは直接マージされません](https://github.com/material-components/material-components-android/blob/master/docs/contributing.md#pull-request-process)）🟥
   - [Visual Studio Code](https://github.com/microsoft/vscode)
     - [貢献](https://github.com/microsoft/vscode/issues?q=author%3Amanabu-nakamura%20OR%20commenter%3Amanabu-nakamura)
-  - [Visual Studio Code Language Packs](https://github.com/microsoft/vscode-loc)
-    - [貢献](https://github.com/microsoft/vscode-loc/issues?q=author%3Amanabu-nakamura%20OR%20commenter%3Amanabu-nakamura)
   - [WinUI 3 Gallery](https://github.com/microsoft/WinUI-Gallery)
     - [貢献](https://github.com/microsoft/WinUI-Gallery/issues?q=author%3Amanabu-nakamura%20OR%20commenter%3Amanabu-nakamura)
   - [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy)
     - [貢献](https://github.com/cotes2020/jekyll-theme-chirpy/issues?q=author%3Amanabu-nakamura%20OR%20commenter%3Amanabu-nakamura)
+  - …
   - [Jetpack Compose](https://developer.android.com/compose)
     - [貢献](https://github.com/android/compose-samples/issues?q=author%3Amanabu-nakamura%20OR%20commenter%3Amanabu-nakamura)🟥
     - [サンプルアプリ](https://github.com/manabu-nakamura/appc)と[メモ](https://github.com/manabu-nakamura/appc/blob/main/docs/memo.md)🟥
@@ -44,4 +43,3 @@ pin: true
         - [[Catalog] Applied edge-to-edge to bottom sheet](https://github.com/material-components/material-components-android/pull/4001)
         - [[Catalog][BottomSheet] foreground color of status bar changes if bottom sheet is opened multiple times](https://github.com/material-components/material-components-android/issues/3940)
     - [サンプルアプリ](https://github.com/manabu-nakamura/app)と[メモ](https://github.com/manabu-nakamura/app/blob/main/docs/memo.md)🟥
-  - …
