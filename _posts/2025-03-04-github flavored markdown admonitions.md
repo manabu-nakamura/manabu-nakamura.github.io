@@ -86,6 +86,9 @@ quux
 > foo
 > > [!NOTE]
 > > bar
+
+    > [!NOTE]
+    > foo
 ```
 ⬇️
 > foo
@@ -116,6 +119,9 @@ quux
 > foo
 > > [!NOTE]
 > > bar
+
+    > [!NOTE]
+    > foo
 
 余談ですが，Chirpyには[プロンプト](https://chirpy.cotes.page/posts/write-a-new-post/#prompts)もあります．
 ```markdown
