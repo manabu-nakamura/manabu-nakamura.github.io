@@ -39,6 +39,5 @@ pin: true
         - [[Catalog] Use EdgeToEdge.enable() instead of EdgeToEdgeUtils.applyEdgeToEdge()](https://github.com/material-components/material-components-android/pull/4347)
         - [[Catalog][NavigationDrawer] background color of navigation drawer is incorrect](https://github.com/material-components/material-components-android/issues/4291)
         - [[Slider][RangeSlider] valueFrom and valueTo can have the same value](https://github.com/material-components/material-components-android/pull/4257)
-        - [[TimePicker] chip is not hidden](https://github.com/material-components/material-components-android/pull/4005)
         - [[Catalog] Applied edge-to-edge to bottom sheet](https://github.com/material-components/material-components-android/pull/4001)
         - [[Catalog][BottomSheet] foreground color of status bar changes if bottom sheet is opened multiple times](https://github.com/material-components/material-components-android/issues/3940)
