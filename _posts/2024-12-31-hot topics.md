@@ -1,7 +1,7 @@
 ---
 title: Hot Topics
 categories: [Hot Topics]
-tags: [Visual Studio Code, WinUI 3, Chirpy, Android, Jetpack Compose, Material Components for Android]
+tags: [Visual Studio Code, WinUI 3, Chirpy, Jetpack Compose, Material Components for Android]
 pin: true
 ---
   - [Visual Studio Code](https://github.com/microsoft/vscode)
