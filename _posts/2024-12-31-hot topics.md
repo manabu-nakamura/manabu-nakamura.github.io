@@ -5,19 +5,19 @@ tags: [Visual Studio Code, WinUI 3, Chirpy, Jetpack Compose, Material Components
 pin: true
 ---
   - [Visual Studio Code](https://github.com/microsoft/vscode)
-    - [プルリクエスト](https://github.com/microsoft/vscode/pulls?q=author%3Amanabu-nakamura)
+    - [プルリクエスト](https://github.com/microsoft/vscode/issues?q=author%3Amanabu-nakamura%20OR%20commenter%3Amanabu-nakamura)
   - [WinUI 3 Gallery](https://github.com/microsoft/WinUI-Gallery)
-    - [プルリクエスト](https://github.com/microsoft/WinUI-Gallery/pulls?q=author%3Amanabu-nakamura)
+    - [プルリクエスト](https://github.com/microsoft/WinUI-Gallery/issues?q=author%3Amanabu-nakamura%20OR%20commenter%3Amanabu-nakamura)
   - [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy)
-    - [プルリクエスト](https://github.com/cotes2020/jekyll-theme-chirpy/pulls?q=author%3Amanabu-nakamura)
+    - [プルリクエスト](https://github.com/cotes2020/jekyll-theme-chirpy/issues?q=author%3Amanabu-nakamura%20OR%20commenter%3Amanabu-nakamura)
   - …
   - [Jetpack Compose](https://developer.android.com/compose)
     - [サンプルアプリ](https://github.com/manabu-nakamura/appc)と[メモ](https://github.com/manabu-nakamura/appc/blob/main/docs/memo.md)
-    - [プルリクエスト](https://github.com/android/compose-samples/pulls?q=author%3Amanabu-nakamura)
+    - [プルリクエスト](https://github.com/android/compose-samples/issues?q=author%3Amanabu-nakamura%20OR%20commenter%3Amanabu-nakamura)
   - [Material Components for Android](https://github.com/material-components/material-components-android)
     - [サンプルアプリ](https://github.com/manabu-nakamura/app)と[メモ](https://github.com/manabu-nakamura/app/blob/main/docs/memo.md)
     - [マージされたコミット](https://github.com/material-components/material-components-android/commits?author=manabu-nakamura)
-    - [プルリクエスト](https://github.com/material-components/material-components-android/pulls?q=author%3Amanabu-nakamura)（[直接マージされません](https://github.com/material-components/material-components-android/blob/master/docs/contributing.md#pull-request-process)）
+    - [プルリクエスト](https://github.com/material-components/material-components-android/issues?q=author%3Amanabu-nakamura%20OR%20commenter%3Amanabu-nakamura)（[直接マージされません](https://github.com/material-components/material-components-android/blob/master/docs/contributing.md#pull-request-process)）
       - Open（Reviewing Internally）：
         - [[Catalog][DatePicker] listener is added again after rotating device](https://github.com/material-components/material-components-android/pull/4499)
         - [[Slider] Fix slider label not moving](https://github.com/material-components/material-components-android/pull/4364)🟥
