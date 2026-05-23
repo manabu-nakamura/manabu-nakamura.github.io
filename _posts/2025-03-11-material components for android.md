@@ -8,3 +8,5 @@ tags: [Android, Material Components for Android, Material 3 Expressive]
 2025年9月：動きが鈍いような気がします…．
 
 2026年3月：少し元気になったような気がします．
+
+2026年5月：メンテナンスモードですか…．
