@@ -1,8 +1,14 @@
 ---
 title: Dynamic Color(s)
-categories: [Android, Material Components for Android]
-tags: [Android, Material Components for Android, Dynamic Color(s)]
+categories: [Android]
+tags: [Android, Jetpack Compose, Material Components for Android, Dynamic Color(s)]
 ---
+[Jetpack Compose](https://developer.android.com/compose)：
+
+Android Studioで作成されたプロジェクトでは，....ui.theme.Theme.ktの...Theme()においてサポートされています．
+
+[Material Components for Android](https://github.com/material-components/material-components-android)：
+
 [ダイナミックカラー](https://developer.android.com/develop/ui/views/theming/dynamic-colors?hl=ja)のいいドキュメントが見当たりません．
 
 アプリをダイナミックカラーにするためには，Theme.Material3Expressive.DynamicColors.*テーマ，Theme.Material3.DynamicColors.*テーマ（またはそれを継承するテーマ）をセットするだけで十分です．

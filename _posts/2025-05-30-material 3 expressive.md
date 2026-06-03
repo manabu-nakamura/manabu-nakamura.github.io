@@ -1,11 +1,17 @@
 ---
 title: Material 3 Expressive
-categories: [Android, Material Components for Android]
-tags: [Android, Material Components for Android, Material 3 Expressive]
+categories: [Android]
+tags: [Android, Jetpack Compose, Material Components for Android, Material 3 Expressive]
 ---
-新しいTheme.Material3Expressive.*テーマが開発されています（[https://m3.material.io/blog/building-with-m3-expressive](https://m3.material.io/blog/building-with-m3-expressive)）．
+[https://m3.material.io/blog/building-with-m3-expressive](https://m3.material.io/blog/building-with-m3-expressive)
 
-Google Playストアアプリ，Gmailアプリがexpressiveになっていますね．
+[Jetpack Compose](https://developer.android.com/compose)：
+
+α版を使用する必要があります（[https://m3.material.io/blog/material-is-compose-first](https://m3.material.io/blog/material-is-compose-first)）．
+
+[Material Components for Android](https://github.com/material-components/material-components-android)：
+
+Theme.Material3Expressive.*テーマが開発されています．
 
 鮮やかな色，アニメーションがいい感じです．
 

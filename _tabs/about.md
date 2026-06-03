@@ -9,7 +9,6 @@ order: 4
 > - [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy)
 > - …
 > - [Jetpack Compose](https://developer.android.com/compose)
-> - [Material Components for Android](https://github.com/material-components/material-components-android)
 > - Java
 > - Kotlin
 > - C#
