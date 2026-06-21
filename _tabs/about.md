@@ -7,9 +7,9 @@ order: 4
 > - [Visual Studio Code](https://github.com/microsoft/vscode)
 > - [WinUI 3](https://github.com/microsoft/microsoft-ui-xaml)
 > - [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy)
-> - …
 > - [Jetpack Compose](https://developer.android.com/compose)
 > - Java
 > - Kotlin
 > - C#
+> - ...
 {: .prompt-info }
