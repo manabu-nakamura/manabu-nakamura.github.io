@@ -1,29 +1,17 @@
 ---
 title: Material 3 Expressive
 categories: [Android]
-tags: [Android, Jetpack Compose, Material Components for Android, Material 3 Expressive]
+tags: [Material 3 Expressive, Android, Jetpack Compose, Material Components for Android]
 ---
 [https://m3.material.io/blog/building-with-m3-expressive](https://m3.material.io/blog/building-with-m3-expressive)
 
-[Jetpack Compose](https://developer.android.com/compose)：
-
-α版を使用する必要があります（[https://m3.material.io/blog/material-is-compose-first](https://m3.material.io/blog/material-is-compose-first)）．
-
-[Material Components for Android](https://github.com/material-components/material-components-android)：
-
-Theme.Material3Expressive.*テーマが開発されています．
-
 鮮やかな色，アニメーションがいい感じです．
 
-アプリなどの背景色（colorSurface）とモーダルでない（スクリムがない）シートの背景色（colorSurfaceContainerLow）の差が小さいのが気になっています．私は，モーダルでない（スクリムがない）シートの背景色をcolorSurfaceContainerHighestにしています．指針を示して欲しいです．[https://m3.material.io/components/bottom-sheets/specs](https://m3.material.io/components/bottom-sheets/specs)がおかしいようですが…（[https://github.com/material-components/material-components-android/issues/4792](https://github.com/material-components/material-components-android/issues/4792)）．
+アプリなどの背景色（Surface）とモーダルでない（スクリムがない）シートの背景色（Surface container low）の差が小さいのが気になっています．私は，モーダルでない（スクリムがない）シートの背景色をSurface container highestにしています．指針を示して欲しいです．[https://m3.material.io/components/bottom-sheets/specs](https://m3.material.io/components/bottom-sheets/specs)がおかしいようですが…（[https://github.com/material-components/material-components-android/issues/4792](https://github.com/material-components/material-components-android/issues/4792)）．
 
 よく見ると，Android 12ぐらいから設定，ロックNo.を入力するインタフェースなどがどんどんexpressiveになってますね．
 
-…
-
 Material 3 Expressiveの登場でMaterial 3が過去のものになるわけではないそうです．
-
-Material 3 Expressiveは[Material Components for Android](https://github.com/material-components/material-components-android) 1.14.0-alpha01以降で使用できます（1.13.0-alphaでも使用できました（[https://github.com/material-components/material-components-android/pull/4803](https://github.com/material-components/material-components-android/pull/4803)））．
 
 Material 3 Expressiveで廃止される予定です：
 
@@ -34,7 +22,15 @@ Material 3 Expressiveに関係なく（Material 3でも）廃止される予定�
 
 - [bottom app bar](https://github.com/material-components/material-components-android/blob/master/docs/components/BottomAppBar.md)
 
-…
+<ins>[Jetpack Compose](https://developer.android.com/compose)</ins>：
+
+α版を使用する必要があります（[https://m3.material.io/blog/material-is-compose-first](https://m3.material.io/blog/material-is-compose-first)）．
+
+<ins>[Material Components for Android](https://github.com/material-components/material-components-android)</ins>：
+
+Theme.Material3Expressive.*テーマが開発されています．
+
+Material 3 Expressiveは[Material Components for Android](https://github.com/material-components/material-components-android) 1.14.0-alpha01以降で使用できます（1.13.0-alphaでも使用できました（[https://github.com/material-components/material-components-android/pull/4803](https://github.com/material-components/material-components-android/pull/4803)））．
 
 Material Components for Androidでは使用できません：
 
