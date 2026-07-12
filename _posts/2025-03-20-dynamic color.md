@@ -3,6 +3,10 @@ title: Dynamic Color(s)
 categories: [Android]
 tags: [Android, Dynamic Color(s), Jetpack Compose, Material Components for Android]
 ---
+ダイナミックカラーにより色の選択が楽になります．細かい設定も可能です．しかし，問題も残っています（[https://github.com/material-components/material-components-android/issues/3969](https://github.com/material-components/material-components-android/issues/3969)，[https://github.com/material-components/material-components-android/issues/4139](https://github.com/material-components/material-components-android/issues/4139)，[https://issuetracker.google.com/issues/400894495](https://issuetracker.google.com/issues/400894495)，[https://issuetracker.google.com/issues/369781732](https://issuetracker.google.com/issues/369781732)）．[Gboard](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin)は．アプリがダイナミックカラーかどうかに追随する設定はありません（アプリのテーマにも追随しません．例えば，システム＝ライトテーマ，アプリ＝ダークテーマの時，Gboard＝ライトテーマになります．ちなみに，Windows 11も同様です）．[写真選択ツール](https://developer.android.com/training/data-storage/shared/photopicker?hl=ja)，[ファイル選択ツール](https://developer.android.com/training/data-storage/shared/documents-files?hl=ja)も似たような感じです．非常に残念です．
+
+<img src="../assets/img/2025-03-20-1.png" alt="" width="150"><img src="../assets/img/2025-03-20-2.png" alt="" width="150"><img src="../assets/img/2025-03-20-3.png" alt="" width="150">
+
 <ins>[Jetpack Compose](https://developer.android.com/compose)</ins>：
 
 Android Studioで作成されたプロジェクトでは，....ui.theme.Theme.ktの...Theme()においてサポートされています．
@@ -64,10 +68,6 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 ```
-ダイナミックカラーにより色の選択が楽になります．細かい設定も可能です．しかし，問題も残っています（[https://github.com/material-components/material-components-android/issues/3969](https://github.com/material-components/material-components-android/issues/3969)，[https://github.com/material-components/material-components-android/issues/4139](https://github.com/material-components/material-components-android/issues/4139)，[https://issuetracker.google.com/issues/400894495](https://issuetracker.google.com/issues/400894495)，[https://issuetracker.google.com/issues/369781732](https://issuetracker.google.com/issues/369781732)）．[Gboard](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin)は．アプリがダイナミックカラーかどうかに追随する設定はありません（アプリのテーマにも追随しません．例えば，システム＝ライトテーマ，アプリ＝ダークテーマの時，Gboard＝ライトテーマになります．ちなみに，Windows 11も同様です）．[写真選択ツール](https://developer.android.com/training/data-storage/shared/photopicker?hl=ja)，[ファイル選択ツール](https://developer.android.com/training/data-storage/shared/documents-files?hl=ja)も似たような感じです．非常に残念です．
-
-<img src="../assets/img/2025-03-20-1.png" alt="" width="150"><img src="../assets/img/2025-03-20-2.png" alt="" width="150"><img src="../assets/img/2025-03-20-3.png" alt="" width="150">
-
 Theme.MaterialComponents.*テーマはMaterial Design 1，2用のテーマです．~~新しいTheme.Material3Expressive.*テーマが開発されていますが，Theme.Material3Expressive.DynamicColors.*テーマは少し癖がありました（[https://github.com/material-components/material-components-android/issues/4704](https://github.com/material-components/material-components-android/issues/4704)）．直ってよかったです．~~
 
 ライブラリも公開されています（[https://github.com/material-foundation/material-color-utilities](https://github.com/material-foundation/material-color-utilities)）．

@@ -13,7 +13,7 @@ tags: [Android, Jetpack Compose]
 
 1⃣選択されたボタンの角が四角く，選択されていないボタンの角が丸いボタングループです．
 
-```
+```kotlin
 Row {
     val themes = listOf(
         "0",
@@ -48,7 +48,7 @@ Row {
 
 shapesを設定しないと1⃣選択されたボタンの角が四角く，選択されていないボタンの角が丸いボタングループになり，shapesを設定すると2⃣選択されたボタンの角が丸く，ボタングループの端の角が丸く，それ以外の角が四角いボタングループになります．
 
-```
+```kotlin
 Row(
     Modifier.fillMaxWidth(),
     Arrangement.spacedBy(
@@ -87,5 +87,7 @@ Row(
     }
 }
 ```
+
+テーマの選択にはconnected button groupがすすめられているようですが，standard button groupと比べ，選択されていないボタンが分かりにくいです（[https://m3.material.io/components/button-groups/guidelines](https://m3.material.io/components/button-groups/guidelines)）．
 
 [https://github.com/manabu-nakamura/appc/blob/main/counter/src/main/java/com/github/manabu_nakamura/counter/MainActivity.kt](https://github.com/manabu-nakamura/appc/blob/main/counter/src/main/java/com/github/manabu_nakamura/counter/MainActivity.kt)
