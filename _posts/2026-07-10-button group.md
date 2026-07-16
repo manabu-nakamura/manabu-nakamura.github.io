@@ -1,7 +1,7 @@
 ---
 title: Button Group
 categories: [Android, Jetpack Compose]
-tags: [Android, Jetpack Compose]
+tags: [Android, Jetpack Compose, Material 3 Expressive]
 ---
 [ボタングループ](https://m3.material.io/components/button-groups/overview)が分かりにくいです．
 
@@ -91,4 +91,4 @@ Row(
 
 [https://github.com/manabu-nakamura/appc/blob/main/counter/src/main/java/com/github/manabu_nakamura/counter/MainActivity.kt](https://github.com/manabu-nakamura/appc/blob/main/counter/src/main/java/com/github/manabu_nakamura/counter/MainActivity.kt)
 
-テーマの選択にはconnected button groupがすすめられているようですが，standard button groupと比べ，選択されていないボタンが分かりにくいです（[https://m3.material.io/components/button-groups/guidelines](https://m3.material.io/components/button-groups/guidelines)）．
+テーマの選択にはconnected button groupがすすめられているようですが，standard button groupと比べ，選択されていないボタンが分かりにくいです（[https://m3.material.io/components/button-groups/guidelines](https://m3.material.io/components/button-groups/guidelines)）．ボタンの間のすき間が狭いからでしょうか？
