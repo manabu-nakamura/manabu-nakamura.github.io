@@ -9,7 +9,7 @@ tags: [Android, Dynamic Color(s), Jetpack Compose, Material Components for Andro
 
 <ins>[Jetpack Compose](https://developer.android.com/compose)</ins>：
 
-Android Studioで作成されたプロジェクトでは，....ui.theme.Theme.ktの...Theme()においてサポートされています．
+Android Studioで作成されたプロジェクトでは，ui.theme.Theme.ktの...Theme()においてサポートされています．
 
 <ins>[Material Components for Android](https://github.com/material-components/material-components-android)</ins>：
 

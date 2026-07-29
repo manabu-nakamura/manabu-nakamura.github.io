@@ -5,7 +5,7 @@ tags: [Android, Jetpack Compose, Material 3 Expressive]
 ---
 [ボタングループ](https://m3.material.io/components/button-groups/overview)が分かりにくいです．
 
-1⃣選択されたボタンの角が四角く，選択されていないボタンの角が丸いボタングループだけでなく，2⃣選択されたボタンの角が丸く，ボタングループの端の角が丸く，それ以外の角が四角いボタングループ（round connected button group），3⃣選択されたボタンの角が丸く，選択されていないボタンの角が四角いボタングループ（square connected button group）もあるようです（[https://m3.material.io/components/button-groups/specs](https://m3.material.io/components/button-groups/specs)）．
+1⃣選択されたボタンの角が四角く，選択されていないボタンの角が丸いボタングループだけでなく，2⃣選択されたボタンの角が丸く，ボタングループの端の角が<ins>丸く</ins>，それ以外の角が四角いボタングループ（round connected button group），3⃣選択されたボタンの角が丸く，選択されていないボタンの角が<ins>四角い</ins>ボタングループ（square connected button group）もあるようです（[https://m3.material.io/components/button-groups/specs](https://m3.material.io/components/button-groups/specs)）．
 
 <ins>standard button group</ins>：
 
