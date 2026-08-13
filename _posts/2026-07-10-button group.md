@@ -44,9 +44,9 @@ Row {
 
 <ins>connected button group</ins>：
 
-ボタングループをページの幅いっぱいに広げます（[https://m3.material.io/components/button-groups/guidelines](https://m3.material.io/components/button-groups/guidelines)）．
+ボタングループをページの幅いっぱいに広げます（[https://m3.material.io/components/button-groups/guidelines](https://m3.material.io/components/button-groups/guidelines)）．ボタンにツールチップを付けることができますが，ボタングループをページの幅いっぱいに広げ，ボタンを等幅にするのが面倒です．
 
-shapesを設定しないと1⃣選択されたボタンの角が四角く，選択されていないボタンの角が丸いボタングループになり，shapesを設定すると2⃣選択されたボタンの角が丸く，ボタングループの端の角が丸く，それ以外の角が四角いボタングループ（round connected button group），3⃣選択されたボタンの角が丸く，選択されていないボタンの角が四角いボタングループ（square connected button group）になります．
+shapesを設定しないと1⃣選択されたボタンの角が四角く，選択されていないボタンの角が丸いボタングループになります（が，仕様外でしょうか？）．shapesを設定すると2⃣選択されたボタンの角が丸く，ボタングループの端の角が丸く，それ以外の角が四角いボタングループ（round connected button group），3⃣選択されたボタンの角が丸く，選択されていないボタンの角が四角いボタングループ（square connected button group）になります．
 
 ```kotlin
 Row(
@@ -92,3 +92,5 @@ Row(
 [https://github.com/manabu-nakamura/appc/blob/main/counter/src/main/java/com/github/manabu_nakamura/counter/MainActivity.kt](https://github.com/manabu-nakamura/appc/blob/main/counter/src/main/java/com/github/manabu_nakamura/counter/MainActivity.kt)
 
 テーマの選択にはconnected button groupがすすめられているようですが，standard button groupと比べ，選択されていないボタンが分かりにくいです（[https://m3.material.io/components/button-groups/guidelines](https://m3.material.io/components/button-groups/guidelines)）．ボタンの間のすき間が狭いからでしょうか？
+
+[https://m3.material.io/blog/building-with-m3-expressive](https://m3.material.io/blog/building-with-m3-expressive)の例が変です：square connected button groupの例で，選択されたボタンと隣接するボタンの幅が一時的に変化しています．
