@@ -14,30 +14,31 @@ tags: [Android, Jetpack Compose, Material 3 Expressive]
 1⃣選択されたボタンの角が四角く，選択されていないボタンの角が丸いボタングループです．
 
 ```kotlin
-Row {
-    val themes = listOf(
-        "0",
-        "1",
-        "2"
+val themes = listOf(
+    "0",
+    "1",
+    "2"
+)
+var selectedIndex by rememberSaveable {
+    mutableIntStateOf(
+        0
     )
-    var selectedIndex by rememberSaveable {
-        mutableIntStateOf(
-            0
+}
+ButtonGroup(
+    {
+        ButtonGroupDefaults.OverflowIndicator(
+            it
         )
     }
-    ButtonGroup(
-        {
-        }
-    ) {
-        themes.forEachIndexed { index, theme ->
-            toggleableItem(
-                selectedIndex == index,
-                theme,
-                {
-                    selectedIndex = index
-                }
-            )
-        }
+) {
+    themes.forEachIndexed { index, theme ->
+        toggleableItem(
+            selectedIndex == index,
+            theme,
+            {
+                selectedIndex = index
+            }
+        )
     }
 }
 ```
