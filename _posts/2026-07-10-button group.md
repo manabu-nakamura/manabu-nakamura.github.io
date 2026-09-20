@@ -9,7 +9,7 @@ tags: [Android, Jetpack Compose, Material 3 Expressive]
 
 <ins>standard button group</ins>：
 
-選択されたボタンと隣接するボタンの幅が一時的に変化します（[https://m3.material.io/components/button-groups/specs](https://m3.material.io/components/button-groups/specs)，[https://m3.material.io/components/button-groups/guidelines](https://m3.material.io/components/button-groups/guidelines)）．隣接するボタンのコンテンツがずれています（[https://issuetracker.google.com/issues/552043096](https://issuetracker.google.com/issues/552043096)）．
+選択されたボタンと隣接するボタンの幅が一時的に変化します（[https://m3.material.io/components/button-groups/specs](https://m3.material.io/components/button-groups/specs)，[https://m3.material.io/components/button-groups/guidelines](https://m3.material.io/components/button-groups/guidelines)）．その際，隣接するボタンのコンテンツがずれています（[https://issuetracker.google.com/issues/552043096](https://issuetracker.google.com/issues/552043096)）．
 
 OverflowIndicatorにより，画面の横幅を超えるボタンをメニューにすることができます（[https://m3.material.io/components/button-groups/guidelines](https://m3.material.io/components/button-groups/guidelines)）．
 
