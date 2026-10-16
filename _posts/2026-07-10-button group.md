@@ -5,7 +5,7 @@ tags: [Android, Jetpack Compose, Material 3 Expressive]
 ---
 [ボタングループ](https://m3.material.io/components/button-groups/overview)が分かりにくいです．
 
-1⃣選択されたボタンの角が四角く，選択されていないボタンの角が丸いボタングループだけでなく，2⃣選択されたボタンの角が丸く，ボタングループの端の角が<ins>丸く</ins>，それ以外の角が四角いボタングループ（round connected button group），3⃣選択されたボタンの角が丸く，選択されていないボタンの角が<ins>四角い</ins>？ボタングループ（square connected button group）もあるようです（[https://m3.material.io/components/button-groups/specs](https://m3.material.io/components/button-groups/specs)）．
+1⃣選択されたボタンの角が四角く，選択されていないボタンの角が丸いボタングループ，2⃣選択されたボタンの角が丸く，ボタングループの端の角が<ins>丸く</ins>，それ以外の角が四角いボタングループ（round connected button group）だけでなく，3⃣（たぶん）選択されたボタンの角が丸く，選択されていないボタンの角が<ins>四角い</ins>ボタングループ（square connected button group）もあるようです（[https://m3.material.io/components/button-groups/specs](https://m3.material.io/components/button-groups/specs)）．
 
 <ins>standard button group</ins>：
 
@@ -47,7 +47,7 @@ ButtonGroup(
 
 <ins>connected button group</ins>：
 
-ボタングループをページの幅いっぱいに広げます（[https://m3.material.io/components/button-groups/guidelines](https://m3.material.io/components/button-groups/guidelines)）．ボタンにツールチップを付けることができますが，ボタングループをページの幅いっぱいに広げ，ボタンを等幅にするのが面倒です．
+ボタングループをページの幅いっぱいに広げます（[https://m3.material.io/components/button-groups/guidelines](https://m3.material.io/components/button-groups/guidelines)）．ボタンにツールチップを付けることはできますが，ボタングループをページの幅いっぱいに広げ，ボタンを等幅にするのは面倒です．Googleドライブのボタングループはページの幅いっぱいではありません．
 
 Rowの代わりにFlowRowを使用することにより，画面の横幅を超えるボタンを次の行に配置することができます（[https://github.com/material-components/material-components-android/blob/master/docs/components/ButtonGroup.md#overflow-mode---wrap](https://github.com/material-components/material-components-android/blob/master/docs/components/ButtonGroup.md#overflow-mode---wrap)）．
 
