@@ -9,7 +9,7 @@ tags: [Android, Jetpack Compose, Material 3 Expressive]
 
 <ins>standard button group</ins>：
 
-選択されたボタンと隣接するボタンの幅が一時的に変化します（[https://m3.material.io/components/button-groups/specs](https://m3.material.io/components/button-groups/specs)，[https://m3.material.io/components/button-groups/guidelines](https://m3.material.io/components/button-groups/guidelines)）．その際，隣接するボタンのコンテンツがずれています（[https://issuetracker.google.com/issues/552043096](https://issuetracker.google.com/issues/552043096)）．
+選択されたボタンと隣接するボタンの幅が一時的に変化します（[https://m3.material.io/components/button-groups/specs](https://m3.material.io/components/button-groups/specs)，[https://m3.material.io/components/button-groups/guidelines](https://m3.material.io/components/button-groups/guidelines)）．その際，隣接するボタンのコンテンツが中心からずれています（[https://issuetracker.google.com/issues/552043096](https://issuetracker.google.com/issues/552043096)）．
 
 OverflowIndicatorにより，画面の横幅を超えるボタンをメニューにすることができます（[https://m3.material.io/components/button-groups/guidelines](https://m3.material.io/components/button-groups/guidelines)）．
 
@@ -49,9 +49,9 @@ ButtonGroup(
 
 ボタングループをページの幅いっぱいに広げます（[https://m3.material.io/components/button-groups/guidelines](https://m3.material.io/components/button-groups/guidelines)）．ボタンにツールチップを付けることはできますが，ボタングループをページの幅いっぱいに広げ，ボタンを等幅にするのは面倒です．Googleドライブのボタングループはページの幅いっぱいではありません．
 
-Rowの代わりにFlowRowを使用することにより，画面の横幅を超えるボタンを次の行に配置することができます（[https://github.com/material-components/material-components-android/blob/master/docs/components/ButtonGroup.md#overflow-mode---wrap](https://github.com/material-components/material-components-android/blob/master/docs/components/ButtonGroup.md#overflow-mode---wrap)）．
+RowではなくFlowRowを使用することにより，画面の横幅を超えるボタンを次の行に配置することができます（[https://developer.android.com/develop/ui/compose/layouts/flow?hl=ja](https://developer.android.com/develop/ui/compose/layouts/flow?hl=ja)，[https://github.com/material-components/material-components-android/blob/master/docs/components/ButtonGroup.md#overflow-mode---wrap](https://github.com/material-components/material-components-android/blob/master/docs/components/ButtonGroup.md#overflow-mode---wrap)）．
 
-shapesを設定しないと1⃣選択されたボタンの角が四角く，選択されていないボタンの角が丸いボタングループになります（が，仕様外でしょうか？）．shapesを設定すると2⃣選択されたボタンの角が丸く，ボタングループの端の角が丸く，それ以外の角が四角いボタングループ（round connected button group），3⃣選択されたボタンの角が丸く，選択されていないボタンの角が四角いボタングループ（square connected button group）になります．
+shapesを設定しないと1⃣選択されたボタンの角が四角く，選択されていないボタンの角が丸いボタングループになります（想定外の使い方でしょうか？）．shapesを設定すると2⃣選択されたボタンの角が丸く，ボタングループの端の角が丸く，それ以外の角が四角いボタングループ（round connected button group），3⃣選択されたボタンの角が丸く，選択されていないボタンの角が四角いボタングループ（square connected button group）になります．
 
 ```kotlin
 Row(
