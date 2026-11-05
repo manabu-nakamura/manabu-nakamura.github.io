@@ -24,7 +24,7 @@ Material 3 Expressiveに関係なく（Material 3でも）廃止される予定�
 
 <ins>[Jetpack Compose](https://developer.android.com/compose)</ins>：
 
-1.5.0-alpha～1.5.0-betaを使用する必要があります（[https://m3.material.io/blog/material-is-compose-first](https://m3.material.io/blog/material-is-compose-first)）．
+1.5.0-alpha01～1.5.0-rc01を使用する必要があります（[https://m3.material.io/blog/material-is-compose-first](https://m3.material.io/blog/material-is-compose-first)）．
 
 <ins>[Material Components for Android](https://github.com/material-components/material-components-android)</ins>：
 

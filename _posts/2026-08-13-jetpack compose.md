@@ -3,7 +3,9 @@ title: Jetpack Compose
 categories: [Android, Jetpack Compose]
 tags: [Android, Jetpack Compose]
 ---
-[1.5.0-beta02](https://developer.android.com/jetpack/androidx/releases/compose-material3#1.5.0-beta02)になりました．
+次（1.6.0-alpha01？）はいつになるんでしょうか？
+
+[1.5.0-rc01](https://developer.android.com/jetpack/androidx/releases/compose-material3#1.5.0-rc01)になりました．
 
 [1.5.0-alpha26](https://developer.android.com/jetpack/androidx/releases/compose-material3#1.5.0-alpha26)以降，Android 6.0（23）で動かないです（[https://developer.android.com/jetpack/androidx/versions/all-channel](https://developer.android.com/jetpack/androidx/versions/all-channel)）．
 
