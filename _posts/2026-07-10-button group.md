@@ -47,7 +47,7 @@ ButtonGroup(
 
 <ins>connected button group</ins>：
 
-ボタングループをページの幅いっぱいに広げます（[https://m3.material.io/components/button-groups/guidelines](https://m3.material.io/components/button-groups/guidelines)）．ボタンにツールチップを付けることはできますが，ボタングループをページの幅いっぱいに広げ，ボタンを等幅にするのは面倒です．Googleドライブのボタングループはページの幅いっぱいではありません．
+ボタングループをページの幅いっぱいに広げます（[https://m3.material.io/components/button-groups/guidelines](https://m3.material.io/components/button-groups/guidelines)）．ボタンにツールチップを付けることはできますが，ボタングループをページの幅いっぱいに広げ，ボタンを等幅にするのは面倒です．Googleドライブのボタングループはページの幅いっぱいではなく，ボタングループ内のボタンはFilledTonalToggleButtonです．
 
 RowではなくFlowRowを使用することにより，画面の横幅を超えるボタンを次の行に配置することができます（[https://developer.android.com/develop/ui/compose/layouts/flow?hl=ja](https://developer.android.com/develop/ui/compose/layouts/flow?hl=ja)，[https://github.com/material-components/material-components-android/blob/master/docs/components/ButtonGroup.md#overflow-mode---wrap](https://github.com/material-components/material-components-android/blob/master/docs/components/ButtonGroup.md#overflow-mode---wrap)）．
 
@@ -96,6 +96,6 @@ Row(
 
 [https://github.com/manabu-nakamura/appc/blob/main/counter/src/main/java/com/github/manabu_nakamura/counter/MainActivity.kt](https://github.com/manabu-nakamura/appc/blob/main/counter/src/main/java/com/github/manabu_nakamura/counter/MainActivity.kt)
 
-テーマの選択にはconnected button groupがすすめられているようですが，standard button groupと比べ，選択されていないボタンが分かりにくいです（[https://m3.material.io/components/button-groups/guidelines](https://m3.material.io/components/button-groups/guidelines)）．ボタンの間のすき間が狭いからでしょうか？
+テーマの選択にはconnected button groupがすすめられているようですが，standard button groupと比べ，選択されていないボタンが分かりにくいです（[https://m3.material.io/components/button-groups/guidelines](https://m3.material.io/components/button-groups/guidelines)）．ボタンの間のすき間が狭いからでしょうか？　connected button groupでは，ToggleButtonだけでなく，ElevatedToggleButton，FilledTonalToggleButton，OutlinedToggleButtonも利用できます（色などが変わります）．
 
 [https://m3.material.io/blog/building-with-m3-expressive](https://m3.material.io/blog/building-with-m3-expressive)の例が変です：square connected button groupの例で，選択されたボタンと隣接するボタンの幅が一時的に変化しています．
