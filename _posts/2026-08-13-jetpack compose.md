@@ -3,7 +3,7 @@ title: Jetpack Compose
 categories: [Android, Jetpack Compose]
 tags: [Android, Jetpack Compose]
 ---
-[1.6.0-alpha01](https://developer.android.com/jetpack/androidx/releases/compose-material3#1.6.0-alpha01)でモーダルボトムシートの動作が変わっています．
+[1.6.0-alpha01](https://developer.android.com/jetpack/androidx/releases/compose-material3#1.6.0-alpha01)でモーダルボトムシートの動作（モーダルボトムシートの高さ）が変わっています．ComposeMaterial3Flags.isBottomSheetPartiallyExpandedDeterministicEnabledをfalseにすれば元に戻せます．
 
 [1.5.0](https://developer.android.com/jetpack/androidx/releases/compose-material3#1.5.0)になりました．
 
