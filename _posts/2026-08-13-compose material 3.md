@@ -1,5 +1,5 @@
 ---
-title: Jetpack Compose
+title: Compose Material 3
 categories: [Android, Jetpack Compose]
 tags: [Android, Jetpack Compose]
 ---
