@@ -11,7 +11,7 @@ tags: [Android, Jetpack Compose, Material 3 Expressive]
 
 選択されたボタンと隣接するボタンの幅が一時的に変化します（[https://m3.material.io/components/button-groups/specs](https://m3.material.io/components/button-groups/specs)，[https://m3.material.io/components/button-groups/guidelines](https://m3.material.io/components/button-groups/guidelines)）．その際，隣接するボタンのコンテンツが中心からずれています（[https://issuetracker.google.com/issues/552043096](https://issuetracker.google.com/issues/552043096)）．
 
-OverflowIndicatorにより，画面の横幅を超えるボタンをメニューに入れることができます（[https://m3.material.io/components/button-groups/guidelines](https://m3.material.io/components/button-groups/guidelines)）．メニュー内のボタンが選択されているのが分からないです（[https://issuetracker.google.com/issues/585624838](https://issuetracker.google.com/issues/585624838)）．toggleableItemではなくcustomItemを使用することで，手動でアイコンを付けることができます（FilledTonalToggleButton，OutlinedToggleButtonを使用することもできます）．
+OverflowIndicatorにより，画面の横幅を超えるボタンをメニューに入れることができます（[https://m3.material.io/components/button-groups/guidelines](https://m3.material.io/components/button-groups/guidelines)）．メニュー内のボタンが選択されているのが分からないです（[https://issuetracker.google.com/issues/585624838](https://issuetracker.google.com/issues/585624838)）．toggleableItemではなくcustomItemを使用することで，手動でアイコンを付けることができます（ToggleButtonだけではなくElevatedToggleButton，FilledTonalToggleButton，OutlinedToggleButtonを使用することもできます）．
 
 1⃣選択されたボタンの角が四角く，選択されていないボタンの角が丸いボタングループです．
 
@@ -96,6 +96,6 @@ Row(
 
 [https://github.com/manabu-nakamura/appc/blob/main/counter/src/main/java/com/github/manabu_nakamura/counter/MainActivity.kt](https://github.com/manabu-nakamura/appc/blob/main/counter/src/main/java/com/github/manabu_nakamura/counter/MainActivity.kt)
 
-テーマの選択にはconnected button groupがすすめられているようですが，standard button groupと比べ，選択されていないボタンが分かりにくいです（[https://m3.material.io/components/button-groups/guidelines](https://m3.material.io/components/button-groups/guidelines)）．ボタンの間のすき間が狭いからでしょうか？　ToggleButtonではなくFilledTonalToggleButton，OutlinedToggleButtonを使用することにより，選択されていないボタンが分かりやすくなります（ElevatedToggleButtonはいまいちです）．
+テーマの選択にはconnected button groupがすすめられているようですが，standard button groupと比べ，選択されていないボタンが分かりにくいです（[https://m3.material.io/components/button-groups/guidelines](https://m3.material.io/components/button-groups/guidelines)）．ボタンの間のすき間が狭いからでしょうか？　ToggleButtonではなくElevatedToggleButton，FilledTonalToggleButton，OutlinedToggleButtonを使用することにより，選択されていないボタンが分かりやすくなります（ElevatedToggleButtonはいまいちです）．
 
 [https://m3.material.io/blog/building-with-m3-expressive](https://m3.material.io/blog/building-with-m3-expressive)の例が変です：square connected button groupの例で，選択されたボタンと隣接するボタンの幅が一時的に変化しています．
