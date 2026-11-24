@@ -11,7 +11,7 @@ tags: [Android, Jetpack Compose, Material 3 Expressive]
 
 選択されたボタンと隣接するボタンの幅が一時的に変化します（[https://m3.material.io/components/button-groups/specs](https://m3.material.io/components/button-groups/specs)，[https://m3.material.io/components/button-groups/guidelines](https://m3.material.io/components/button-groups/guidelines)）．その際，隣接するボタンのコンテンツが中心からずれています（[https://issuetracker.google.com/issues/552043096](https://issuetracker.google.com/issues/552043096)）．
 
-OverflowIndicatorにより，画面の横幅を超えるボタンをメニューに入れることができます（[https://m3.material.io/components/button-groups/guidelines](https://m3.material.io/components/button-groups/guidelines)）．メニュー内のボタンが選択されているのが分からないです（[https://issuetracker.google.com/issues/585624838](https://issuetracker.google.com/issues/585624838)）．toggleableItemではなくcustomItemを使用することで，メニュー内のボタン（本当はメニューアイテム）に手動でアイコンを付けることができます（ToggleButtonだけではなくElevatedToggleButton，FilledTonalToggleButton，OutlinedToggleButtonを使用することもできます．ボタンにツールチップを付けることもできます）．
+OverflowIndicatorにより，画面の横幅を超えるボタンをメニューに入れることができます（[https://m3.material.io/components/button-groups/guidelines](https://m3.material.io/components/button-groups/guidelines)）．メニュー内のボタンが選択されているのが分からないです（[https://issuetracker.google.com/issues/585624838](https://issuetracker.google.com/issues/585624838)）．toggleableItemではなくcustomItemを使用することで，メニュー内のボタン（本当はメニューアイテム）に手動でアイコンを付けることができます（ToggleButtonだけではなくElevatedToggleButton，FilledTonalToggleButton，OutlinedToggleButtonを使用することもできます．ボタンにツールチップを付けることもできますが，選択されたボタンと隣接するボタンの幅が一時的に変化しなくなります）．
 
 1⃣選択されたボタンの角が四角く，選択されていないボタンの角が丸いボタングループです．
 
