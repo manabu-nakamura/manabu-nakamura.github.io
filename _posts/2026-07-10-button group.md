@@ -5,13 +5,13 @@ tags: [Android, Jetpack Compose, Material 3 Expressive]
 ---
 [ボタングループ](https://m3.material.io/components/button-groups/overview)が分かりにくいです．
 
-1⃣選択されたボタンの角が四角く，選択されていないボタンの角が丸いボタングループ，2⃣選択されたボタンの角が丸く，ボタングループの端の角が<ins>丸く</ins>，それ以外の角が四角いボタングループ（round connected button group）だけでなく，3⃣（たぶん）選択されたボタンの角が丸く，選択されていないボタンの角が<ins>四角い</ins>ボタングループ（square connected button group）もあるようです（[https://m3.material.io/components/button-groups/specs](https://m3.material.io/components/button-groups/specs)）．
+1⃣選択されたボタンの角が四角く，選択されていないボタンの角が丸いボタングループ，2⃣選択されたボタンの角が丸く，ボタングループの端の角が<ins>丸く</ins>，それ以外の角が四角いボタングループ（round connected button group）だけでなく，3⃣<ins>（たぶん）</ins>選択されたボタンの角が丸く，選択されていないボタンの角が<ins>四角い</ins>ボタングループ（square connected button group）もあるようです（[https://m3.material.io/components/button-groups/specs](https://m3.material.io/components/button-groups/specs)）．
 
 <ins>standard button group</ins>：
 
 選択されたボタンと隣接するボタンの幅が一時的に変化します（[https://m3.material.io/components/button-groups/specs](https://m3.material.io/components/button-groups/specs)，[https://m3.material.io/components/button-groups/guidelines](https://m3.material.io/components/button-groups/guidelines)）．その際，隣接するボタンのコンテンツが中心からずれています（[https://issuetracker.google.com/issues/552043096](https://issuetracker.google.com/issues/552043096)）．
 
-OverflowIndicatorにより，画面の横幅を超えるボタンをメニューに入れることができます（[https://m3.material.io/components/button-groups/guidelines](https://m3.material.io/components/button-groups/guidelines)）．メニュー内のボタンが選択されているのが分からないです（[https://issuetracker.google.com/issues/585624838](https://issuetracker.google.com/issues/585624838)）．toggleableItemではなくcustomItemを使用することで，メニュー内のボタン（本当はメニューアイテム）に手動でアイコンを付けることができます（ToggleButtonだけではなくElevatedToggleButton，FilledTonalToggleButton，OutlinedToggleButtonを使用することもできます．ボタンにツールチップを付けることもできますが，選択されたボタンと隣接するボタンの幅が一時的に変化しなくなります）．
+OverflowIndicatorにより，画面の横幅を超えるボタンをメニューに入れることができます（[https://m3.material.io/components/button-groups/guidelines](https://m3.material.io/components/button-groups/guidelines)）．メニュー内のボタンが選択されているのが分からないです（[https://issuetracker.google.com/issues/585624838](https://issuetracker.google.com/issues/585624838)）．toggleableItemではなくcustomItemを使用することで，メニュー内のボタン（本当はメニューアイテム）に手動でアイコンを付けることができます（ToggleButtonだけではなくElevatedToggleButton，FilledTonalToggleButton，OutlinedToggleButtonを使用することもできます．ボタンにツールチップを付けることもできます）．
 
 1⃣選択されたボタンの角が四角く，選択されていないボタンの角が丸いボタングループです．
 
@@ -47,7 +47,7 @@ ButtonGroup(
 
 <ins>connected button group</ins>：
 
-ボタングループをページの幅いっぱいに広げます（[https://m3.material.io/components/button-groups/guidelines](https://m3.material.io/components/button-groups/guidelines)）．ボタンにツールチップを付けることはできますが，ボタングループをページの幅いっぱいに広げ，ボタンを等幅にするのは面倒です．Googleドライブのボタングループはページの幅いっぱいではなく，ボタングループ内のボタンはToggleButtonではなくFilledTonalToggleButtonです．
+ボタングループをページの幅いっぱいに広げます（[https://m3.material.io/components/button-groups/guidelines](https://m3.material.io/components/button-groups/guidelines)）．ボタンにツールチップを付けることもできます．Googleドライブのボタングループはページの幅いっぱいではなく，ボタングループ内のボタンはToggleButtonではなくFilledTonalToggleButtonです．
 
 RowではなくFlowRowを使用することにより，画面の横幅を超えるボタンを次の行に配置することができます（[https://developer.android.com/develop/ui/compose/layouts/flow?hl=ja](https://developer.android.com/develop/ui/compose/layouts/flow?hl=ja)，[https://github.com/material-components/material-components-android/blob/master/docs/components/ButtonGroup.md#overflow-mode---wrap](https://github.com/material-components/material-components-android/blob/master/docs/components/ButtonGroup.md#overflow-mode---wrap)）．
 
@@ -97,5 +97,7 @@ Row(
 [https://github.com/manabu-nakamura/appc/blob/main/counter/src/main/java/com/github/manabu_nakamura/counter/MainActivity.kt](https://github.com/manabu-nakamura/appc/blob/main/counter/src/main/java/com/github/manabu_nakamura/counter/MainActivity.kt)
 
 テーマの選択にはconnected button groupがすすめられているようですが，standard button groupと比べ，選択されていないボタンが分かりにくいです（[https://m3.material.io/components/button-groups/guidelines](https://m3.material.io/components/button-groups/guidelines)）．ボタンの間のすき間が狭いからでしょうか？　ToggleButtonではなくElevatedToggleButton，FilledTonalToggleButton，OutlinedToggleButtonを使用することにより，選択されていないボタンが分かりやすくなります（ElevatedToggleButtonはいまいちです）．
+
+TooltipBoxは大きさがない（Modifier.animateWidth()，Modifier.weight()が効かない）です．TooltipBoxをBox（か何か）で囲い，Box（か何か）をModifier.animateWidth()，Modifier.weight()にし，TooltipBoxの中身をModifier.fillMaxWidth()にすればいいです．Box（か何か）をTooltipBoxで囲んでも意味がありません．
 
 [https://m3.material.io/blog/building-with-m3-expressive](https://m3.material.io/blog/building-with-m3-expressive)の例が変です：square connected button groupの例で，選択されたボタンと隣接するボタンの幅が一時的に変化しています．
